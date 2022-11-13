@@ -1,0 +1,38 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+}
+
+h2, h5 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+table, th, td {
+	/*font-size: 17px;*/
+	padding: 8px 0px 8px 0px;
+	border: none;
+}
+
+tr.bordered {
+    border-bottom: 1px solid #000;
+}
+
+.date {
+	width:140px;
+}
+
+.tableContent {
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	/*background-color: lightgray;*/
+	padding: 36px 18px 36px 18px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
