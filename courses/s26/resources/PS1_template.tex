@@ -1,0 +1,214 @@
+%me=0 student solutions, me=1 - my solutions, me=2 - assignment
+\def\me{0}
+\def\num{1}  %homework number
+\def\due{February 5, 2026}  %due date
+\def\release{January 26, 2026} %release date
+\def\course{COMS BC3262} %course name
+\def\name{**** INSERT YOUR NAME HERE ****}
+%
+%
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+
+
+\usetikzlibrary{automata,positioning}
+\setlength{\oddsidemargin}{.0in}
+\setlength{\evensidemargin}{.0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-0.4in}
+\setlength{\textheight}{8.5in}
+
+
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{#1, Page \arabic{page}}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { {\bf \course} \hfill #2 }
+       \vspace{4mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { {\it #3 \hfill #4} }
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+
+\newcounter{pppp}
+\newcommand{\prob}{\arabic{pppp}}  %problem number
+\newcommand{\increase}{\addtocounter{pppp}{1}}  %problem number
+
+\newcommand{\newproblem}[2]{\increase
+\section*{Problem \prob~(#1) \hfill {#2}}}
+
+
+\def\squarebox#1{\hbox to #1{\hfill\vbox to #1{\vfill}}}
+\def\qed{\hspace*{\fill}
+        \vbox{\hrule\hbox{\vrule\squarebox{.667em}\vrule}\hrule}}
+
+\newenvironment{solution}{\color{purple}\begin{trivlist}\item[]{\bf Solution:}}
+                      {\qed \end{trivlist}}
+\newenvironment{solsketch}{\color{purple}\begin{trivlist}\item[]{\bf Solution Sketch:}}
+                      {\qed \end{trivlist}}
+
+\newenvironment{studentsolution}{\begin{trivlist}\item[]{\bf Solution:}}
+                      {\qed \end{trivlist}}
+
+\newenvironment{code}{\begin{tabbing}
+12345\=12345\=12345\=12345\=12345\=12345\=12345\=12345\= \kill }
+{\end{tabbing}}
+
+\newcommand{\room}{\medskip\ni}
+\newcommand{\brak}[1]{\langle #1 \rangle}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\zo}{\{0,1\}}
+
+\newcommand {\eps} {\varepsilon}
+
+\newcommand{\nin}{\not\in}
+\newcommand{\set}[1]{\{#1\}}
+\renewcommand{\ni}{\noindent}
+\renewcommand{\gets}{\leftarrow}
+\renewcommand{\to}{\rightarrow}
+\newcommand{\assign}{:=}
+
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+
+\newcommand{\Gen}{\mathsf{Gen}}
+\newcommand{\Enc}{\mathsf{Enc}}
+\newcommand{\Dec}{\mathsf{Dec}}
+\newcommand{\MAC}{\mathsf{MAC}}
+
+\newcommand {\A} {\mathcal{A}}
+\newcommand {\K} {\mathcal{K}}
+\newcommand {\C} {\mathcal{C}}
+\newcommand {\M} {\mathcal{M}}
+\newcommand {\T} {\mathcal{T}}
+\newcommand {\Y} {\mathcal{Y}}
+
+\newcommand {\ZZ} {\mathbb{Z}}
+\newcommand {\NN} {\mathbb{N}}
+\newcommand {\RR} {\mathbb{R}}
+
+% Eysa macros
+\newcommand{\eysa}[1]{\textcolor{orange}{e: #1}}
+
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{parskip} % Remove paragraph indentation
+\usepackage{amsmath} % for align
+\usepackage{amsthm} % for proof pkg
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{mdframed}
+\usepackage{xspace}
+
+\newcommand{\Half}{\frac{1}{2}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\natN}{\mathbb{N}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\bbF}{\mathbb{F}}
+
+\newcommand{\negl}{\mathsf{negl}}
+
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+
+\begin{document}
+
+\ifnum\me=0
+\handout{PS\num}{\today}{Name: \name}{Due:
+\due}{Solutions to Problem Set \num}
+
+I collaborated with *********** INSERT COLLABORATORS HERE (INDICATING
+SPECIFIC PROBLEMS) *************.
+\fi
+\ifnum\me=1
+\handout{PS\num}{\release}{Instructor: Eysa Lee}{Due: \due}{Solutions
+for Problem Set \num}
+\fi
+\ifnum\me=2
+\handout{PS\num}{\release}{Instructor: Eysa Lee}{Due: \due}{Problem
+Set \num}
+\fi
+
+\ifnum\me=2
+\paragraph{Guidelines.} Solutions will be graded for correctness and clarity.
+If you do not know how to solve a problem, you may write \textbf{``I don't know how to do this''} to receive $20\%$ credit for any problem not marked as extra credit.
+
+
+\paragraph{Collaboration.} You are allowed to discuss problems with other students. However, you should write up your solutions on your own and may not read or copy the solutions of others. You should try solving each problem on your own before discussing with others. \textbf{If you work with others on a problem, you must note with whom you discussed the problem at the beginning of your solution write-up.} For example, ``I discussed Problem 1 with Alice and Bob and Problem 2 with Carol.''
+You may not use external resources apart from the recommended textbooks.
+
+\paragraph{Generative AI Policy.} The use of generative AI for anything related to assignments is prohibited in this class. \textbf{It is always prohibited to input any substantial portion of any assignment into any AI resource.} It is also always forbidden to incorporate any substantive portion of an AI resource's output into your answers, even if you paraphrase it or rewrite it in your own words.
+\fi
+
+\newproblem{Negligible Functions}{5 points}
+ Prove that if $p$ is a polynomial and $\mu$ is a negligible function, then their product $f = p \cdot \mu$ (defined by $f(n)=p(n)\cdot\mu(n)$) is also negligible.
+
+\begin{studentsolution}
+    
+\end{studentsolution}
+
+\newproblem{Variant of the One-Time Pad}{5 points}
+Let $q$ be prime. Suppose we want to use one-time pad over the group of integers mod $q$ (i.e., $\{0, 1, \ldots, q-1\}$). If the key happens to be $k=0$, then $\Enc(k,m) = k+m = m$. In other words, the ciphertext is equal to the message! Maybe, we should choose the key uniformly at random over all the \textbf{non-zero} elements to make sure we never select $k=0$ so that the above does not happen. Is this suggestion a good idea? Explain why or why not. 
+
+\begin{studentsolution}
+    
+\end{studentsolution}
+
+\newproblem{Encryption Schemes with $|\K| = |\M|$}{5 points}
+For the below statement, clearly state if you are proving or refuting. To prove the claim, justify every step and, if needed, write down definitions/theorems that were presented in class and that you rely on. To refute, provide a counterexample and show that it does not satisfy the required definition.
+
+\textbf{Prove or Refute}: Every encryption scheme for which the size of the key space equals the size of the message space, and for which the key is chosen uniformly from the key space, is perfectly secret.
+
+\begin{studentsolution}
+    
+\end{studentsolution}
+
+\newproblem{Two-time Security?}{10 points}
+\paragraph{Part A:} Here is a natural way to define perfectly secret encryption for two messages. For any two pairs of messages $(m_0, m_1)\in \M^2$ and $(m_0', m_1') \in \M^2$  and for any ciphertexts $c_0,c_1$ we have
+$$ \Pr[\Enc(K,m_0) = c_0\land \Enc(K,m_1) = c_1] = \Pr[\Enc(K,m_0') = c_0\land \Enc(K, m_1') = c_1]$$
+Show that no encryption scheme (with a deterministic encryption procedure) can satisfy this definition.
+
+\textit{Hint: Notice that the messages $m_0,m_1$ (or $m'_0,m'_1$) may or may not be equal to each other.} 
+
+\begin{studentsolution}
+    
+\end{studentsolution}
+
+\paragraph{Part B:} We could relax the definition from Part A by insisting that the messages being encrypted are different from each other. In other words, for any two pairs of messages $m_0 \neq m_1$ and $m_0' \neq m_1'$  and for any ciphertexts $c_0,c_1$ we have
+$$ \Pr[\Enc(K,m_0) = c_0\land \Enc(K,m_1) = c_1] = \Pr[\Enc(K,m_0') = c_0\land \Enc(K, m_1') = c_1].$$
+Let $q$ be a prime number and $\ZZ_q^*=\{1,\ldots,q-1\}$\footnote{We will review this notation and more later in the course. The most relevant information for this question is that $\ZZ^*_q$ is finite set on which all standard arithmetic operations are defined and closed. Cryptographers frequently use $\ZZ_q$ as a shorthand to refer to the set of integers mod $q$ (i.e., $\{0,1,\ldots,q-1\}$), and $\ZZ_q^*$ are the elements coprime to $q$.}. Consider the scheme with $\K = \ZZ_q^*\times\ZZ_q^*, \M = \C = \ZZ^*_q$ defined by $\Enc(k, m) = x \cdot m + y$ and $\Dec(k, c) = (c -y)/x$ where $k = (x,y)$ and all of the operations are over $\ZZ^*_q$.  Show that the above scheme satisfies the above notion of two-message security. 
+
+\begin{studentsolution}
+    
+\end{studentsolution}
+
+
+\newproblem{Slightly-Imperfect Secrecy}{Extra Credit 5 points}
+Imagine that we weakened the definition of perfect secrecy just a little bit. In particular, suppose we define the property of ``$\varepsilon$-imperfect secrecy'' to mean that for all $m_1,m_2\in\mathcal{M}$ and every $c\in\mathcal{C}$, 
+$$ \left|\Pr\left[\Enc(K, m_1)=c\right]-\Pr\left[\Enc(K, m_2)=c\right]\right|\le\varepsilon.$$
+Show that this notion does not provide any real guarantee of security even when $\eps$ is small, by constructing a scheme that achieves this notion of security with (say)  $\eps = 2^{-128}$, but where every ciphertext completely reveals the message\footnote{When we say the ciphertext reveals the message, we don't mean the message is revealed through brute force or via some complicated or computationally inefficient method.}. 
+
+\begin{studentsolution}
+    
+\end{studentsolution}
+
+\end{document}
+
+
