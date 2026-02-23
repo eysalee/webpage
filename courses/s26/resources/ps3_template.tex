@@ -1,0 +1,166 @@
+%me=0 student solutions, me=1 - my solutions, me=2 - assignment
+\def\me{0}
+\def\num{3}  %homework number
+\def\due{March 5, 2026}  %due date
+\def\course{COMS BC3262} %course name
+\def\name{**** INSERT YOUR NAME HERE ****}
+%
+%
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usepackage[boxruled,vlined,nofillcomment]{algorithm2e}
+	\SetKwProg{Fn}{}{\string:}{}
+	\SetKwFor{While}{While}{}{}
+	\SetKwFor{For}{For}{}{}
+	\SetKwIF{If}{ElseIf}{Else}{If}{:}{ElseIf}{Else}{:}
+	\SetKw{Return}{Return}
+\usepackage{amsfonts}
+\usepackage{comment}
+\usepackage{latexsym}
+
+\usetikzlibrary{automata,positioning}
+\setlength{\oddsidemargin}{.0in}
+\setlength{\evensidemargin}{.0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-0.4in}
+\setlength{\textheight}{8.5in}
+
+\newcommand{\handout}[5]{
+	\renewcommand{\thepage}{#1, Page \arabic{page}}
+	\noindent
+	\begin{center}
+		\framebox{
+			\vbox{
+				\hbox to 5.78in { {\bf \course} \hfill #2 }
+				\vspace{4mm}
+				\hbox to 5.78in { {\Large \hfill #5  \hfill} }
+				\vspace{2mm}
+				\hbox to 5.78in { {\it #3 \hfill #4} }
+			}
+		}
+	\end{center}
+	\vspace*{4mm}
+}
+
+\newcounter{pppp}
+\newcommand{\prob}{\arabic{pppp}}  %problem number
+\newcommand{\increase}{\addtocounter{pppp}{1}}  %problem number
+
+\newcommand{\newproblem}[2]{\increase
+	\section*{Problem \prob~(#1) \hfill {#2}}}
+
+
+\def\squarebox#1{\hbox to #1{\hfill\vbox to #1{\vfill}}}
+\def\qed{\hspace*{\fill}
+	\vbox{\hrule\hbox{\vrule\squarebox{.667em}\vrule}\hrule}}
+\newenvironment{solution}{\begin{trivlist}\item[]{\bf Solution:}}
+	{\qed \end{trivlist}}
+\newenvironment{solsketch}{\begin{trivlist}\item[]{\bf Solution Sketch:}}
+	{\qed \end{trivlist}}
+\newenvironment{code}{\begin{tabbing}
+		12345\=12345\=12345\=12345\=12345\=12345\=12345\=12345\= \kill }
+	{\end{tabbing}}
+
+
+\newcommand{\hint}[1]{({\bf Hint}: {#1})}
+%Put more macros here, as needed.
+\newcommand{\room}{\medskip\ni}
+\newcommand{\brak}[1]{\langle #1 \rangle}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\zo}{\{0,1\}}
+
+\newcommand {\eps} {\varepsilon}
+
+\newcommand{\nin}{\not\in}
+\newcommand{\set}[1]{\{#1\}}
+\renewcommand{\ni}{\noindent}
+\renewcommand{\gets}{\leftarrow}
+\renewcommand{\to}{\rightarrow}
+\newcommand{\assign}{:=}
+
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+
+\newcommand{\Enc}{\mathsf{Enc}}
+\newcommand{\Dec}{\mathsf{Dec}}
+\newcommand{\MAC}{\mathsf{MAC}}
+
+\newcommand {\A} {\mathcal{A}}
+\newcommand {\K} {\mathcal{K}}
+\newcommand {\C} {\mathcal{C}}
+\newcommand {\D} {\mathcal{D}}
+\newcommand {\M} {\mathcal{M}}
+\newcommand {\T} {\mathcal{T}}
+\newcommand {\Y} {\mathcal{Y}}
+
+\newcommand {\ZZ} {\mathbb{Z}}
+\newcommand {\NN} {\mathbb{N}}
+\newcommand {\RR} {\mathbb{R}}
+
+% Alexandra macros
+\newcommand{\av}[1]{\textcolor{cyan}{AV: #1}}
+\newcommand{\Claim}{\textit{Claim: }}
+\newcommand{\Lemma}{\textit{Lemma: }}
+\newcommand{\Proof}{\textit{Proof: }}
+
+% Eysa macros
+\newcommand{\eysa}[1]{\textcolor{orange}{ey: #1}}
+\newcommand{\Adv}{\mathcal{A}}
+\newcommand{\B}{\mathcal{B}}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+	
+	\ifnum\me=0
+	\handout{PS\num}{\today}{Name: **** INSERT YOU NAME HERE ****}{Due:
+		\due}{Solutions to Problem Set \num}
+	
+	I collaborated with *********** INSERT COLLABORATORS HERE (INDICATING
+	SPECIFIC PROBLEMS) *************.
+	\fi
+	\ifnum\me=1
+	\handout{PS\num}{\today}{Instructor: Eysa Lee}{Due: \due}{Solutions to Problem Set \num}
+	\fi
+	\ifnum\me=2
+	\handout{PS\num}{\today}{Instructor: Eysa Lee}{Due: \due}{Problem
+		Set \num}
+	\fi
+
+
+\newproblem{CBC Counter?}{5 pts}
+
+Recall CBC-mode encryption from Lecture 6. Consider a variant of CBC where, after the first encryption with a randomly sampled initialization vector (IV), subsequent encryptions simply increment the IV by 1 each time a message is encrypted (rather than choosing IV at random each time). Show that the resulting scheme is \emph{not} CPA-secure.
+
+\newproblem{CPA-Secure Encryption from PRPs}{10 pts}
+
+Let $F:\bit^n\times\bit^n\to\bit^n$ be a pseudorandom permutation (PRP) and define an encryption scheme $\Pi=(\mathsf{Gen}, \Enc,\Dec)$ for messages of length $n/2$ as follows.
+\begin{itemize}
+    \item $\mathsf{Gen}(1^n)$: Output key $k\gets\bit^n$.
+    \item $\Enc(k,m)$: Sample $r\gets\bit^{n/2}$ and output $c = F_k(r||m)$, where $||$ denotes string concatenation.
+    \item $\Dec(...)$: ...
+\end{itemize}
+
+\paragraph{Part A. (2 pts)} Complete the definition of $\Pi$ by showing how to decrypt and briefly show correctness.
+
+\paragraph{Part B. (8 pts)} Prove that $\Pi$ is CPA-secure.
+
+\newproblem{PRGs are OWFs}{5 pts}
+Let $G$ be any candidate pseudorandom generator (PRG) with $n$-bit stretch (i.e., when $|s|=n$, $|G(s)|= 2n$). Show that $G$ is also a one-way function (OWF). 
+
+\textit{Hint: Show this via a reduction. If some adversary managed to break the security of $G$ as a OWF, use that adversary to also break the security of $G$ as a PRG.}
+
+\newproblem{OWF or Not?}{5 pts + 5 Extra Credit} Assume that  $f~:~\{0,1\}^* \rightarrow \{0,1\}^*$ is a one-way function (OWF). 
+For each of the following candidate  constructions $f'$ argue whether it is also \emph{necessarily} a OWF or not. If yes, give a proof (via a reduction showing how to convert an attack against $f'$ into one against $f$). If no, give a counter-example. For a counterexample, you should show that if OWFs exist then there is some function $f$ which is one-way but $f'$ is not. 
+
+\begin{enumerate}
+	\item $f'(x) = f(x)||x_1$ where $x_1$ is the first bit of $x$ and $||$ denotes string concatenation.   
+	\item $f'(x) = f(x)||0$.
+\end{enumerate}
+
+
+\end{document}
+
+
