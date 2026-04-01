@@ -1,0 +1,333 @@
+track_name,danceability,energy,loudness,acousticness,instrumentalness,valence,tempo,duration_ms,explicit,key,mode,key_name,mode_name,key_mode
+Tim McGraw,0.41,0.35,0.22,0.95,0.75,0.78,76.0,232106.0,0.0,0.0,1.0,C,major,C major
+Picture To Burn,0.43,0.41,0.13,0.91,0.75,0.8,105.47,173066.0,0.0,2.0,1.0,D,major,D major
+Teardrops On My Guitar,0.45,0.32,0.25,0.96,0.76,0.48,99.38,203040.0,0.0,5.0,0.0,F,minor,F minor
+A Place In This World,0.48,0.38,0.14,0.94,0.74,0.79,114.84,199200.0,0.0,9.0,1.0,A,major,A major
+Cold As You,0.44,0.35,0.21,0.95,0.75,0.78,87.59,239013.0,0.0,0.0,1.0,C,major,C major
+The Outside,0.44,0.4,0.12,0.93,0.74,0.5,112.35,207106.0,0.0,5.0,0.0,F,minor,F minor
+Tied Together With A Smile,0.49,0.36,0.15,0.95,0.74,0.8,143.55,248106.0,0.0,4.0,1.0,E,major,E major
+Stay Beautiful,0.48,0.34,0.23,0.95,0.75,0.5,132.51,236053.0,0.0,8.0,0.0,G#,minor,G# minor
+Should've Said No,0.38,0.37,0.16,0.95,0.74,0.78,83.35,242200.0,0.0,2.0,1.0,D,major,D major
+Mary's Song (Oh My My My),0.51,0.38,0.17,0.94,0.75,0.8,147.66,213080.0,0.0,9.0,1.0,A,major,A major
+Our Song,0.45,0.35,0.22,0.96,0.75,0.78,89.1,201106.0,0.0,9.0,1.0,A,major,A major
+I'm Only Me When I'm With You,0.47,0.36,0.18,0.95,0.74,0.5,143.55,213053.0,0.0,3.0,0.0,D#,minor,D# minor
+Invisible,0.44,0.32,0.25,0.97,0.76,0.78,97.51,203226.0,0.0,7.0,1.0,G,major,G major
+A Perfectly Good Heart,0.44,0.35,0.2,0.97,0.74,0.8,152.0,220146.0,0.0,11.0,1.0,B,major,B major
+Teardrops On My Guitar (Pop Version),0.43,0.34,0.25,0.94,0.76,0.49,99.38,179066.0,0.0,10.0,0.0,A#,minor,A# minor
+Fearless,0.43,0.35,0.23,0.94,0.76,0.49,99.38,242000.0,0.0,5.0,0.0,F,minor,F minor
+Fifteen,0.45,0.35,0.22,0.95,0.75,0.79,95.7,294346.0,0.0,7.0,1.0,G,major,G major
+Love Story,0.47,0.4,0.13,0.93,0.74,0.8,117.45,235280.0,0.0,2.0,1.0,D,major,D major
+Hey Stephen,0.43,0.32,0.29,0.94,0.77,0.48,77.13,254320.0,0.0,1.0,0.0,C#,minor,C# minor
+White Horse,0.44,0.31,0.32,0.96,0.77,0.78,92.29,234440.0,0.0,2.0,1.0,D,major,D major
+You Belong With Me,0.46,0.38,0.14,0.94,0.74,0.5,129.2,231146.0,0.0,10.0,0.0,A#,minor,A# minor
+Breathe,0.51,0.34,0.24,0.95,0.76,0.5,147.66,263986.0,0.0,1.0,0.0,C#,minor,C# minor
+Tell Me Why,0.43,0.37,0.18,0.95,0.75,0.79,99.38,200560.0,0.0,7.0,1.0,G,major,G major
+You're Not Sorry,0.46,0.37,0.17,0.94,0.75,0.5,136.0,261800.0,0.0,6.0,0.0,F#,minor,F# minor
+The Way I Loved You,0.5,0.38,0.13,0.95,0.74,0.8,161.5,244240.0,0.0,9.0,1.0,A,major,A major
+Forever & Always,0.43,0.35,0.24,0.93,0.76,0.5,129.2,225333.0,0.0,9.0,0.0,A,minor,A minor
+The Best Day,0.5,0.32,0.31,0.95,0.77,0.48,129.2,245346.0,0.0,1.0,0.0,C#,minor,C# minor
+Change,0.42,0.38,0.18,0.94,0.74,0.49,95.7,281053.0,0.0,5.0,0.0,F,minor,F minor
+Jump Then Fall,0.4,0.36,0.22,0.94,0.75,0.79,107.67,237066.0,0.0,4.0,1.0,E,major,E major
+Untouchable,0.45,0.33,0.26,0.95,0.76,0.78,99.38,311040.0,0.0,9.0,1.0,A,major,A major
+Forever & Always (Piano Version),0.44,0.31,0.24,0.95,0.77,0.72,112.35,267506.0,0.0,4.0,1.0,E,major,E major
+Come In With The Rain,0.47,0.37,0.17,0.94,0.75,0.8,143.55,238106.0,0.0,7.0,1.0,G,major,G major
+SuperStar,0.45,0.33,0.24,0.96,0.76,0.76,86.13,261453.0,0.0,2.0,1.0,D,major,D major
+The Other Side Of The Door,0.47,0.38,0.17,0.94,0.75,0.81,161.5,237600.0,0.0,4.0,1.0,E,major,E major
+Mine,0.48,0.38,0.18,0.94,0.75,0.8,120.19,230706.0,0.0,2.0,1.0,D,major,D major
+Sparks Fly,0.48,0.39,0.13,0.93,0.74,0.5,114.84,260933.0,0.0,5.0,0.0,F,minor,F minor
+Back To December,0.48,0.33,0.24,0.97,0.76,0.8,143.55,293026.0,0.0,2.0,1.0,D,major,D major
+Speak Now,0.49,0.38,0.18,0.93,0.75,0.8,120.19,240760.0,0.0,7.0,1.0,G,major,G major
+Dear John,0.48,0.34,0.24,0.95,0.75,0.79,117.45,403920.0,0.0,4.0,1.0,E,major,E major
+Mean,0.47,0.36,0.21,0.93,0.75,0.81,161.5,237733.0,0.0,4.0,1.0,E,major,E major
+The Story Of Us,0.51,0.37,0.15,0.95,0.75,0.8,139.67,265666.0,0.0,4.0,1.0,E,major,E major
+Never Grow Up,0.45,0.3,0.32,0.95,0.75,0.8,126.05,290466.0,0.0,9.0,1.0,A,major,A major
+Enchanted,0.5,0.39,0.14,0.94,0.74,0.51,161.5,352186.0,0.0,0.0,0.0,C,minor,C minor
+Better Than Revenge,0.44,0.35,0.22,0.95,0.76,0.8,147.66,217160.0,0.0,2.0,1.0,D,major,D major
+Innocent,0.5,0.37,0.2,0.94,0.75,0.5,136.0,302253.0,0.0,8.0,0.0,G#,minor,G# minor
+Haunted,0.38,0.39,0.14,0.93,0.75,0.78,80.75,242080.0,0.0,9.0,1.0,A,major,A major
+Last Kiss,0.44,0.32,0.27,0.96,0.76,0.5,156.61,367133.0,0.0,10.0,0.0,A#,minor,A# minor
+Long Live,0.43,0.38,0.18,0.93,0.75,0.79,101.33,317453.0,0.0,7.0,1.0,G,major,G major
+Ours,0.43,0.33,0.28,0.94,0.77,0.78,79.51,237920.0,0.0,0.0,1.0,C,major,C major
+If This Was A Movie,0.53,0.38,0.13,0.95,0.74,0.8,147.66,234546.0,0.0,8.0,1.0,G#,major,G# major
+Superman,0.52,0.37,0.16,0.94,0.74,0.8,132.51,275960.0,0.0,9.0,1.0,A,major,A major
+Back To December (Acoustic Version),0.51,0.36,0.17,0.94,0.73,0.8,143.55,292560.0,0.0,9.0,1.0,A,major,A major
+Haunted (Acoustic Version),0.44,0.34,0.17,0.94,0.74,0.5,143.55,217613.0,0.0,5.0,0.0,F,minor,F minor
+Mine - Pop Mix,0.48,0.36,0.23,0.94,0.76,0.8,120.19,230333.0,0.0,2.0,1.0,D,major,D major
+State Of Grace,0.47,0.35,0.2,0.95,0.74,0.8,129.2,295186.0,0.0,8.0,1.0,G#,major,G# major
+Red,0.44,0.36,0.18,0.96,0.75,0.8,126.05,220826.0,0.0,6.0,1.0,F#,major,F# major
+Treacherous,0.43,0.34,0.23,0.96,0.75,0.78,109.96,240773.0,0.0,2.0,1.0,D,major,D major
+I Knew You Were Trouble,0.41,0.34,0.27,0.96,0.76,0.49,103.36,217973.0,0.0,1.0,0.0,C#,minor,C# minor
+All Too Well,0.39,0.34,0.23,0.96,0.75,0.78,92.29,327893.0,0.0,7.0,1.0,G,major,G major
+22,0.39,0.35,0.26,0.95,0.76,0.79,103.36,230133.0,0.0,2.0,1.0,D,major,D major
+I Almost Do,0.49,0.31,0.31,0.96,0.77,0.8,143.55,242573.0,0.0,11.0,1.0,B,major,B major
+We Are Never Ever Getting Back Together,0.36,0.33,0.3,0.95,0.77,0.78,86.13,191880.0,0.0,7.0,1.0,G,major,G major
+Stay Stay Stay,0.46,0.35,0.22,0.94,0.75,0.79,99.38,204826.0,0.0,0.0,1.0,C,major,C major
+The Last Time,0.46,0.34,0.2,0.97,0.75,0.75,93.96,298293.0,0.0,2.0,1.0,D,major,D major
+Holy Ground,0.52,0.33,0.25,0.95,0.76,0.5,156.61,201853.0,0.0,4.0,0.0,E,minor,E minor
+Sad Beautiful Tragic,0.45,0.3,0.34,0.96,0.78,0.78,129.2,283680.0,0.0,7.0,1.0,G,major,G major
+The Lucky One,0.43,0.32,0.29,0.95,0.76,0.79,117.45,240133.0,0.0,11.0,1.0,B,major,B major
+Everything Has Changed,0.45,0.33,0.25,0.96,0.76,0.5,161.5,243933.0,0.0,10.0,0.0,A#,minor,A# minor
+Starlight,0.46,0.35,0.25,0.94,0.76,0.8,126.05,217826.0,0.0,11.0,1.0,B,major,B major
+Begin Again,0.41,0.34,0.26,0.95,0.76,0.8,156.61,237613.0,0.0,2.0,1.0,D,major,D major
+The Moment I Knew,0.46,0.36,0.23,0.93,0.76,0.8,126.05,285560.0,0.0,7.0,1.0,G,major,G major
+Come Back...Be Here,0.52,0.35,0.2,0.96,0.74,0.8,161.5,222706.0,0.0,11.0,1.0,B,major,B major
+Girl At Home,0.48,0.33,0.27,0.96,0.76,0.49,126.05,220320.0,0.0,0.0,0.0,C,minor,C minor
+Treacherous (Original Demo Recording),0.45,0.31,0.25,0.96,0.76,0.77,109.96,239720.0,0.0,2.0,1.0,D,major,D major
+Red (Original Demo Recording),0.43,0.36,0.23,0.94,0.76,0.78,83.35,226280.0,0.0,4.0,1.0,E,major,E major
+State Of Grace (Acoustic Version),0.42,0.24,0.47,0.97,0.8,0.66,99.38,323080.0,0.0,2.0,1.0,D,major,D major
+Welcome To New York,0.47,0.33,0.27,0.96,0.75,0.79,117.45,212600.0,0.0,7.0,1.0,G,major,G major
+Blank Space,0.42,0.32,0.29,0.96,0.76,0.48,95.7,231826.0,0.0,5.0,0.0,F,minor,F minor
+Style,0.37,0.34,0.25,0.96,0.75,0.78,95.7,231000.0,0.0,9.0,1.0,A,major,A major
+Out Of The Woods,0.41,0.33,0.25,0.96,0.75,0.79,123.05,235800.0,0.0,0.0,1.0,C,major,C major
+All You Had To Do Was Stay,0.42,0.34,0.28,0.95,0.76,0.49,97.51,193293.0,0.0,0.0,0.0,C,minor,C minor
+Shake It Off,0.48,0.34,0.24,0.96,0.76,0.8,161.5,219200.0,0.0,2.0,1.0,D,major,D major
+I Wish You Would,0.41,0.35,0.22,0.96,0.76,0.79,117.45,207440.0,0.0,0.0,1.0,C,major,C major
+Bad Blood,0.44,0.31,0.28,0.96,0.76,0.79,112.35,211933.0,0.0,11.0,1.0,B,major,B major
+Wildest Dreams,0.44,0.31,0.27,0.97,0.76,0.48,136.0,220440.0,0.0,8.0,0.0,G#,minor,G# minor
+How You Get The Girl,0.47,0.34,0.26,0.96,0.75,0.49,120.19,247533.0,0.0,0.0,0.0,C,minor,C minor
+This Love,0.45,0.33,0.25,0.97,0.75,0.8,143.55,250093.0,0.0,4.0,1.0,E,major,E major
+I Know Places,0.41,0.34,0.26,0.96,0.76,0.79,107.67,195706.0,0.0,0.0,1.0,C,major,C major
+Clean,0.45,0.3,0.33,0.96,0.77,0.74,103.36,271000.0,0.0,4.0,1.0,E,major,E major
+Wonderland,0.41,0.34,0.22,0.97,0.75,0.49,123.05,245560.0,0.0,3.0,0.0,D#,minor,D# minor
+You Are In Love,0.43,0.31,0.28,0.97,0.77,0.7,112.35,267106.0,0.0,9.0,1.0,A,major,A major
+New Romantics,0.45,0.36,0.22,0.95,0.75,0.5,123.05,230466.0,0.0,0.0,0.0,C,minor,C minor
+I Know Places - Voice Memo,,,,,,,,216333.0,0.0,,,nan,nan,nan
+I Wish You Would - Voice Memo,,,,,,,,107133.0,0.0,,,nan,nan,nan
+Blank Space - Voice Memo,,,,,,,,131186.0,0.0,,,nan,nan,nan
+...Ready For It?,0.45,0.31,0.33,0.95,0.77,0.81,161.5,208186.0,0.0,4.0,1.0,E,major,E major
+End Game,0.5,0.31,0.31,0.97,0.78,0.79,105.47,244826.0,0.0,2.0,1.0,D,major,D major
+I Did Something Bad,0.39,0.32,0.3,0.96,0.76,0.78,83.35,238253.0,0.0,10.0,1.0,A#,major,A# major
+Don't Blame Me,0.35,0.34,0.23,0.96,0.74,0.77,68.0,236413.0,0.0,9.0,1.0,A,major,A major
+Delicate,0.4,0.27,0.42,0.97,0.79,0.46,95.7,232253.0,0.0,0.0,0.0,C,minor,C minor
+Look What You Made Me Do,0.46,0.33,0.3,0.94,0.77,0.8,129.2,211853.0,0.0,9.0,1.0,A,major,A major
+So It Goes...,0.38,0.33,0.27,0.97,0.76,0.77,74.9,227906.0,0.0,4.0,1.0,E,major,E major
+Gorgeous,0.42,0.28,0.36,0.97,0.78,0.79,123.05,209680.0,0.0,0.0,1.0,C,major,C major
+Getaway Car,0.47,0.33,0.28,0.96,0.76,0.81,172.27,233626.0,0.0,1.0,1.0,C#,major,C# major
+King Of My Heart,0.39,0.31,0.33,0.96,0.77,0.79,109.96,214320.0,0.0,0.0,1.0,C,major,C major
+Dancing With Our Hands Tied,0.48,0.31,0.3,0.97,0.76,0.5,161.5,211506.0,0.0,3.0,0.0,D#,minor,D# minor
+Dress,0.46,0.29,0.39,0.95,0.78,0.49,120.19,230373.0,0.0,0.0,0.0,C,minor,C minor
+This Is Why We Can't Have Nice Things,0.45,0.35,0.27,0.93,0.76,0.51,161.5,207133.0,0.0,0.0,0.0,C,minor,C minor
+Call It What You Want,0.44,0.28,0.38,0.95,0.78,0.49,109.96,203506.0,0.0,9.0,0.0,A,minor,A minor
+New Year's Day,0.51,0.23,0.46,0.97,0.82,0.67,184.57,235466.0,0.0,0.0,1.0,C,major,C major
+I Forgot That You Existed,0.43,0.26,0.34,0.97,0.77,0.49,129.2,170640.0,0.0,5.0,0.0,F,minor,F minor
+Cruel Summer,0.4,0.33,0.25,0.96,0.76,0.49,112.35,178426.0,0.0,9.0,0.0,A,minor,A minor
+Lover,0.47,0.34,0.23,0.96,0.75,0.78,103.36,221306.0,0.0,7.0,1.0,G,major,G major
+The Man,0.44,0.33,0.27,0.96,0.75,0.79,109.96,190360.0,0.0,7.0,1.0,G,major,G major
+The Archer,0.43,0.29,0.28,0.98,0.77,0.38,123.05,211240.0,0.0,0.0,0.0,C,minor,C minor
+I Think He Knows,0.45,0.29,0.34,0.97,0.77,0.46,99.38,173386.0,0.0,10.0,0.0,A#,minor,A# minor
+Miss Americana & The Heartbreak Prince,0.53,0.29,0.37,0.95,0.78,0.8,152.0,234146.0,0.0,2.0,1.0,D,major,D major
+Paper Rings,0.46,0.31,0.34,0.96,0.77,0.79,103.36,222400.0,0.0,4.0,1.0,E,major,E major
+Cornelia Street,0.4,0.31,0.31,0.96,0.78,0.75,101.33,287266.0,0.0,0.0,1.0,C,major,C major
+Death By A Thousand Cuts,0.44,0.31,0.28,0.96,0.77,0.79,126.05,198533.0,0.0,11.0,1.0,B,major,B major
+London Boy,0.47,0.29,0.34,0.96,0.78,0.48,156.61,190240.0,0.0,6.0,0.0,F#,minor,F# minor
+Soon You'll Get Better,0.44,0.28,0.35,0.97,0.79,0.7,105.47,201586.0,0.0,7.0,1.0,G,major,G major
+False God,0.44,0.23,0.49,0.98,0.81,0.63,79.51,200306.0,0.0,11.0,1.0,B,major,B major
+You Need To Calm Down,0.46,0.33,0.29,0.95,0.76,0.81,172.27,171360.0,0.0,2.0,1.0,D,major,D major
+Afterglow,0.46,0.27,0.37,0.98,0.77,0.75,112.35,223293.0,0.0,11.0,1.0,B,major,B major
+ME!,0.38,0.35,0.25,0.94,0.75,0.49,90.67,193000.0,0.0,0.0,0.0,C,minor,C minor
+It's Nice To Have A Friend,0.54,0.26,0.38,0.97,0.8,0.45,143.55,150440.0,0.0,10.0,0.0,A#,minor,A# minor
+Daylight,0.44,0.31,0.23,0.97,0.75,0.7,99.38,293453.0,0.0,7.0,1.0,G,major,G major
+the 1,0.49,0.27,0.38,0.97,0.79,0.76,143.55,210240.0,1.0,0.0,1.0,C,major,C major
+cardigan,0.42,0.31,0.27,0.96,0.76,0.43,129.2,239560.0,0.0,5.0,0.0,F,minor,F minor
+the last great american dynasty,0.49,0.28,0.36,0.98,0.77,0.77,147.66,231000.0,1.0,7.0,1.0,G,major,G major
+exile,0.46,0.33,0.22,0.95,0.75,0.48,156.61,285640.0,0.0,6.0,0.0,F#,minor,F# minor
+my tears ricochet,0.47,0.31,0.27,0.97,0.76,0.73,129.2,255893.0,0.0,0.0,1.0,C,major,C major
+mirrorball,0.42,0.31,0.24,0.97,0.75,0.71,112.35,208973.0,0.0,9.0,1.0,A,major,A major
+seven,0.4,0.29,0.37,0.96,0.78,0.75,92.29,208906.0,0.0,4.0,1.0,E,major,E major
+august,0.39,0.34,0.21,0.96,0.75,0.46,120.19,261920.0,0.0,0.0,0.0,C,minor,C minor
+this is me trying,0.43,0.32,0.23,0.98,0.75,0.72,136.0,195106.0,0.0,4.0,1.0,E,major,E major
+illicit affairs,0.45,0.3,0.31,0.97,0.76,0.49,123.05,190893.0,0.0,10.0,0.0,A#,minor,A# minor
+invisible string,0.42,0.26,0.45,0.97,0.8,0.76,112.35,252880.0,0.0,3.0,1.0,D#,major,D# major
+mad woman,0.51,0.31,0.29,0.97,0.76,0.45,143.55,237266.0,1.0,5.0,0.0,F,minor,F minor
+epiphany,0.41,0.28,0.35,0.97,0.78,0.4,123.05,289746.0,0.0,8.0,0.0,G#,minor,G# minor
+betty,0.43,0.34,0.22,0.95,0.75,0.79,95.7,294520.0,1.0,0.0,1.0,C,major,C major
+peace,0.46,0.27,0.37,0.96,0.81,0.46,143.55,234000.0,1.0,0.0,0.0,C,minor,C minor
+hoax,0.41,0.25,0.41,0.97,0.82,0.38,117.45,220040.0,0.0,0.0,0.0,C,minor,C minor
+the lakes,0.41,0.3,0.29,0.97,0.76,0.46,112.35,211813.0,0.0,1.0,0.0,C#,minor,C# minor
+willow,0.49,0.31,0.32,0.95,0.78,0.77,166.71,214706.0,0.0,9.0,1.0,A,major,A major
+champagne problems,0.5,0.31,0.26,0.96,0.77,0.75,172.27,244000.0,1.0,0.0,1.0,C,major,C major
+gold rush,0.47,0.29,0.31,0.97,0.77,0.71,152.0,185320.0,1.0,9.0,1.0,A,major,A major
+'tis the damn season,0.53,0.31,0.31,0.96,0.77,0.45,147.66,229840.0,0.0,5.0,0.0,F,minor,F minor
+tolerate it,0.47,0.28,0.33,0.97,0.79,0.71,152.0,245440.0,1.0,9.0,1.0,A,major,A major
+"no body, no crime",0.44,0.33,0.29,0.95,0.76,0.48,79.51,215626.0,0.0,10.0,0.0,A#,minor,A# minor
+happiness,0.43,0.29,0.34,0.97,0.77,0.71,123.05,315146.0,1.0,11.0,1.0,B,major,B major
+dorothea,0.47,0.3,0.29,0.97,0.77,0.74,123.05,225880.0,0.0,4.0,1.0,E,major,E major
+coney island,0.41,0.28,0.35,0.97,0.79,0.38,117.45,275320.0,0.0,10.0,0.0,A#,minor,A# minor
+ivy,0.41,0.3,0.32,0.96,0.78,0.74,92.29,260440.0,1.0,2.0,1.0,D,major,D major
+cowboy like me,0.45,0.3,0.32,0.96,0.77,0.71,129.2,275040.0,1.0,4.0,1.0,E,major,E major
+long story short,0.42,0.3,0.3,0.97,0.78,0.71,79.51,215920.0,0.0,0.0,1.0,C,major,C major
+marjorie,0.46,0.31,0.3,0.96,0.77,0.47,129.2,257773.0,0.0,5.0,0.0,F,minor,F minor
+closure,0.47,0.29,0.33,0.97,0.79,0.74,152.0,180653.0,0.0,9.0,1.0,A,major,A major
+evermore,0.43,0.3,0.28,0.97,0.78,0.39,112.35,304106.0,0.0,8.0,0.0,G#,minor,G# minor
+right where you left me,0.42,0.33,0.21,0.95,0.75,0.4,68.91,245026.0,0.0,5.0,0.0,F,minor,F minor
+it's time to go,0.47,0.29,0.36,0.97,0.78,0.75,152.0,254640.0,0.0,7.0,1.0,G,major,G major
+Fearless (Taylor's Version),0.42,0.35,0.26,0.95,0.76,0.49,101.33,241591.0,0.0,5.0,0.0,F,minor,F minor
+Fifteen (Taylor's Version),0.45,0.34,0.25,0.95,0.75,0.79,95.7,294419.0,0.0,9.0,1.0,A,major,A major
+Love Story (Taylor's Version),0.47,0.37,0.18,0.94,0.74,0.8,120.19,235766.0,0.0,9.0,1.0,A,major,A major
+Hey Stephen (Taylor's Version),,,,,,,,254254.0,0.0,,,nan,nan,nan
+White Horse (Taylor's Version),0.42,0.3,0.33,0.96,0.76,0.78,93.96,234515.0,0.0,2.0,1.0,D,major,D major
+You Belong With Me (Taylor's Version),0.43,0.38,0.18,0.93,0.75,0.5,129.2,231124.0,0.0,10.0,0.0,A#,minor,A# minor
+Breathe (Taylor's Version),,,,,,,,263377.0,0.0,,,nan,nan,nan
+Tell Me Why (Taylor's Version),,,,,,,,200575.0,0.0,,,nan,nan,nan
+You're Not Sorry (Taylor's Version),0.45,0.36,0.22,0.93,0.75,0.5,129.2,261842.0,0.0,6.0,0.0,F#,minor,F# minor
+The Way I Loved You (Taylor's Version),0.45,0.37,0.19,0.93,0.76,0.48,79.51,243136.0,0.0,9.0,0.0,A,minor,A minor
+Forever & Always (Taylor's Version),0.42,0.37,0.24,0.93,0.76,0.5,129.2,225328.0,0.0,5.0,0.0,F,minor,F minor
+The Best Day (Taylor's Version),0.48,0.3,0.38,0.96,0.78,0.5,126.05,245290.0,0.0,1.0,0.0,C#,minor,C# minor
+Change (Taylor's Version),0.45,0.36,0.22,0.94,0.74,0.49,95.7,279359.0,0.0,5.0,0.0,F,minor,F minor
+Jump Then Fall (Taylor's Version),0.48,0.36,0.23,0.93,0.76,0.81,161.5,237580.0,0.0,9.0,1.0,A,major,A major
+Untouchable (Taylor's Version),0.47,0.34,0.25,0.94,0.76,0.49,99.38,312107.0,0.0,7.0,0.0,G,minor,G minor
+Forever & Always (Piano Version) [Taylor's Version],0.44,0.31,0.27,0.96,0.75,0.79,117.45,267833.0,0.0,1.0,1.0,C#,major,C# major
+Come In With The Rain (Taylor's Version),0.46,0.37,0.2,0.93,0.75,0.8,136.0,237338.0,0.0,7.0,1.0,G,major,G major
+SuperStar (Taylor's Version),0.53,0.33,0.28,0.95,0.76,0.81,172.27,263865.0,0.0,2.0,1.0,D,major,D major
+The Other Side Of The Door (Taylor's Version),0.4,0.38,0.18,0.92,0.75,0.8,109.96,238443.0,0.0,4.0,1.0,E,major,E major
+Today Was A Fairytale (Taylor's Version),0.48,0.35,0.23,0.95,0.75,0.8,156.61,241822.0,0.0,7.0,1.0,G,major,G major
+You All Over Me (Taylor's Version) [From The Vault],0.51,0.3,0.31,0.97,0.77,0.73,143.55,220839.0,0.0,2.0,1.0,D,major,D major
+Mr. Perfectly Fine (Taylor's Version) [From The Vault],0.49,0.37,0.19,0.94,0.75,0.8,136.0,277591.0,0.0,2.0,1.0,D,major,D major
+We Were Happy (Taylor's Version) [From The Vault],0.44,0.3,0.3,0.97,0.77,0.73,107.67,244236.0,0.0,0.0,1.0,C,major,C major
+That's When (Taylor's Version) [From The Vault],0.45,0.33,0.24,0.96,0.76,0.49,120.19,189495.0,0.0,5.0,0.0,F,minor,F minor
+Don't You (Taylor's Version) [From The Vault],0.44,0.28,0.37,0.95,0.78,0.49,101.33,208608.0,0.0,3.0,0.0,D#,minor,D# minor
+Bye Bye Baby (Taylor's Version) [From The Vault],0.48,0.33,0.25,0.95,0.76,0.51,161.5,242157.0,0.0,5.0,0.0,F,minor,F minor
+State Of Grace (Taylor's Version),0.46,0.36,0.19,0.94,0.74,0.8,129.2,295413.0,0.0,8.0,1.0,G#,major,G# major
+Red (Taylor's Version),0.43,0.33,0.26,0.97,0.75,0.79,126.05,223093.0,0.0,11.0,1.0,B,major,B major
+Treacherous (Taylor's Version),0.47,0.35,0.2,0.96,0.74,0.79,109.96,242720.0,0.0,9.0,1.0,A,major,A major
+I Knew You Were Trouble (Taylor's Version),0.4,0.36,0.24,0.94,0.76,0.5,123.05,219760.0,0.0,10.0,0.0,A#,minor,A# minor
+All Too Well (Taylor's Version),0.4,0.32,0.31,0.96,0.76,0.78,93.96,329160.0,0.0,0.0,1.0,C,major,C major
+22 (Taylor's Version),0.4,0.33,0.31,0.96,0.77,0.79,103.36,230960.0,0.0,11.0,1.0,B,major,B major
+I Almost Do (Taylor's Version),0.49,0.32,0.3,0.96,0.76,0.8,143.55,244586.0,0.0,6.0,1.0,F#,major,F# major
+We Are Never Ever Getting Back Together (Taylor's Version),0.33,0.33,0.28,0.95,0.76,0.78,86.13,193146.0,0.0,7.0,1.0,G,major,G major
+Stay Stay Stay (Taylor's Version),0.44,0.33,0.28,0.94,0.76,0.79,99.38,205786.0,0.0,0.0,1.0,C,major,C major
+The Last Time (Taylor's Version),0.42,0.34,0.22,0.96,0.75,0.78,93.96,299080.0,0.0,9.0,1.0,A,major,A major
+Holy Ground (Taylor's Version),0.5,0.31,0.31,0.96,0.76,0.49,156.61,202960.0,0.0,11.0,0.0,B,minor,B minor
+Sad Beautiful Tragic (Taylor's Version),0.49,0.3,0.35,0.96,0.78,0.8,132.51,284773.0,0.0,11.0,1.0,B,major,B major
+The Lucky One (Taylor's Version),0.44,0.31,0.33,0.96,0.77,0.78,117.45,240466.0,0.0,11.0,1.0,B,major,B major
+Everything Has Changed (Taylor's Version),0.39,0.34,0.25,0.95,0.75,0.48,80.75,245426.0,0.0,10.0,0.0,A#,minor,A# minor
+Starlight (Taylor's Version),0.46,0.33,0.29,0.95,0.77,0.8,126.05,220413.0,0.0,11.0,1.0,B,major,B major
+Begin Again (Taylor's Version),0.45,0.31,0.33,0.95,0.77,0.8,156.61,238866.0,0.0,7.0,1.0,G,major,G major
+The Moment I Knew (Taylor's Version),0.46,0.33,0.29,0.95,0.76,0.8,126.05,285280.0,0.0,7.0,1.0,G,major,G major
+Come Back...Be Here (Taylor's Version),0.49,0.36,0.21,0.95,0.75,0.81,161.5,223333.0,0.0,11.0,1.0,B,major,B major
+Girl At Home (Taylor's Version),0.46,0.31,0.33,0.96,0.76,0.49,126.05,220520.0,0.0,0.0,0.0,C,minor,C minor
+State Of Grace (Acoustic Version) [Taylor's Version],0.42,0.24,0.49,0.96,0.8,0.74,103.36,321640.0,0.0,2.0,1.0,D,major,D major
+Ronan (Taylor's Version),0.43,0.29,0.32,0.95,0.75,0.79,117.45,264253.0,0.0,0.0,1.0,C,major,C major
+Better Man (Taylor's Version) [From The Vault],0.51,0.34,0.21,0.96,0.75,0.8,152.0,297013.0,0.0,4.0,1.0,E,major,E major
+Nothing New (Taylor's Version) [From The Vault],0.44,0.29,0.35,0.96,0.78,0.73,99.38,258812.0,0.0,0.0,1.0,C,major,C major
+Babe (Taylor's Version) [From The Vault],0.39,0.35,0.23,0.95,0.75,0.78,83.35,224240.0,0.0,11.0,1.0,B,major,B major
+Message In A Bottle (Taylor's Version) [From The Vault],0.42,0.33,0.28,0.95,0.75,0.79,114.84,225960.0,0.0,7.0,1.0,G,major,G major
+I Bet You Think About Me (Taylor's Version) [From The Vault],0.36,0.35,0.21,0.96,0.75,0.79,101.33,285106.0,1.0,0.0,1.0,C,major,C major
+Forever Winter (Taylor's Version) [From The Vault],0.47,0.36,0.19,0.95,0.74,0.79,114.84,263533.0,0.0,7.0,1.0,G,major,G major
+Run (Taylor's Version) [From The Vault],0.43,0.3,0.31,0.96,0.78,0.76,123.05,240226.0,0.0,3.0,1.0,D#,major,D# major
+The Very First Night (Taylor's Version) [From The Vault],0.46,0.32,0.31,0.96,0.76,0.79,120.19,200280.0,0.0,7.0,1.0,G,major,G major
+All Too Well (10 Minute Version) [Taylor's Version] [From The Vault],0.42,0.32,0.27,0.96,0.76,0.77,92.29,613026.0,1.0,0.0,1.0,C,major,C major
+Lavender Haze,0.39,0.25,0.46,0.97,0.81,0.39,97.51,202395.0,1.0,0.0,0.0,C,minor,C minor
+Maroon,0.4,0.31,0.32,0.96,0.77,0.79,107.67,218270.0,1.0,7.0,1.0,G,major,G major
+Anti-Hero,0.41,0.32,0.28,0.96,0.76,0.8,129.2,200690.0,0.0,4.0,1.0,E,major,E major
+Snow On The Beach,0.45,0.26,0.41,0.98,0.78,0.35,109.96,256124.0,1.0,9.0,0.0,A,minor,A minor
+"You're On Your Own, Kid",0.45,0.28,0.37,0.97,0.79,0.68,120.19,194206.0,0.0,2.0,1.0,D,major,D major
+Midnight Rain,0.41,0.26,0.42,0.97,0.79,0.4,69.84,174782.0,0.0,0.0,0.0,C,minor,C minor
+Question...?,0.45,0.29,0.36,0.95,0.78,0.79,109.96,210556.0,1.0,0.0,1.0,C,major,C major
+Vigilante Shit,0.4,0.22,0.48,0.97,0.82,0.71,80.75,164801.0,1.0,0.0,1.0,C,major,C major
+Bejeweled,0.39,0.3,0.33,0.96,0.77,0.79,109.96,194165.0,0.0,0.0,1.0,C,major,C major
+Labyrinth,0.41,0.28,0.34,0.96,0.78,0.67,112.35,247962.0,0.0,0.0,1.0,C,major,C major
+Karma,0.4,0.32,0.32,0.95,0.77,0.49,120.19,204852.0,1.0,10.0,0.0,A#,minor,A# minor
+Sweet Nothing,0.43,0.27,0.35,0.96,0.79,0.76,120.19,188496.0,0.0,5.0,1.0,F,major,F major
+Mastermind,0.42,0.22,0.52,0.98,0.82,0.61,126.05,191039.0,0.0,11.0,1.0,B,major,B major
+The Great War,0.4,0.33,0.28,0.95,0.76,0.78,95.7,240355.0,0.0,0.0,1.0,C,major,C major
+Hits Different,0.44,0.31,0.31,0.97,0.76,0.49,105.47,234466.0,1.0,5.0,0.0,F,minor,F minor
+Bigger Than The Whole Sky,0.38,0.26,0.41,0.97,0.8,0.33,107.67,218502.0,0.0,8.0,0.0,G#,minor,G# minor
+"You're On Your Own, Kid (Strings Remix)",,,,,,,,,,,,nan,nan,nan
+Paris,0.4,0.29,0.34,0.96,0.78,0.76,117.45,196258.0,0.0,7.0,1.0,G,major,G major
+Sweet Nothing (Piano Remix),,,,,,,,,,,,nan,nan,nan
+High Infidelity,0.43,0.3,0.32,0.97,0.78,0.75,117.45,231475.0,0.0,10.0,1.0,A#,major,A# major
+Glitch,0.47,0.29,0.36,0.96,0.78,0.8,143.55,148781.0,0.0,11.0,1.0,B,major,B major
+"Would've, Could've, Should've",0.45,0.33,0.2,0.97,0.75,0.72,156.61,260361.0,0.0,7.0,1.0,G,major,G major
+You're Losing Me (From The Vault),0.41,0.25,0.46,0.98,0.8,0.66,103.36,277831.0,0.0,0.0,1.0,C,major,C major
+Dear Reader,0.44,0.25,0.44,0.97,0.79,0.7,107.67,225194.0,0.0,2.0,1.0,D,major,D major
+Snow On The Beach (More Lana Del Rey),0.45,0.29,0.35,0.98,0.77,0.4,109.96,229942.0,1.0,8.0,0.0,G#,minor,G# minor
+Karma (Remix),0.37,0.33,0.29,0.94,0.76,0.49,90.67,201493.0,1.0,10.0,0.0,A#,minor,A# minor
+Mine (Taylor's Version),0.48,0.36,0.21,0.94,0.74,0.8,123.05,231706.0,0.0,2.0,1.0,D,major,D major
+Sparks Fly (Taylor's Version),0.45,0.36,0.2,0.94,0.74,0.5,114.84,261230.0,0.0,5.0,0.0,F,minor,F minor
+Back To December (Taylor's Version),0.49,0.36,0.2,0.94,0.75,0.8,139.67,294189.0,0.0,2.0,1.0,D,major,D major
+Speak Now (Taylor's Version),0.48,0.37,0.21,0.93,0.75,0.8,120.19,242473.0,0.0,7.0,1.0,G,major,G major
+Dear John (Taylor's Version),0.47,0.34,0.23,0.95,0.74,0.79,120.19,405906.0,0.0,8.0,1.0,G#,major,G# major
+Mean (Taylor's Version),0.42,0.34,0.26,0.94,0.76,0.78,82.03,238693.0,0.0,4.0,1.0,E,major,E major
+The Story Of Us (Taylor's Version),0.41,0.36,0.2,0.94,0.74,0.78,69.84,267653.0,0.0,4.0,1.0,E,major,E major
+Never Grow Up (Taylor's Version),0.47,0.3,0.31,0.95,0.75,0.8,123.05,292920.0,0.0,2.0,1.0,D,major,D major
+Enchanted (Taylor's Version),0.5,0.35,0.22,0.95,0.74,0.51,161.5,353253.0,0.0,8.0,0.0,G#,minor,G# minor
+Better Than Revenge (Taylor's Version),0.46,0.36,0.21,0.94,0.75,0.8,147.66,220306.0,0.0,9.0,1.0,A,major,A major
+Innocent (Taylor's Version),0.48,0.36,0.2,0.94,0.75,0.8,147.66,301221.0,0.0,8.0,1.0,G#,major,G# major
+Haunted (Taylor's Version),0.49,0.36,0.21,0.95,0.75,0.81,161.5,245413.0,0.0,9.0,1.0,A,major,A major
+Last Kiss (Taylor's Version),0.5,0.33,0.26,0.96,0.76,0.8,156.61,369120.0,0.0,9.0,1.0,A,major,A major
+Long Live (Taylor's Version),0.45,0.36,0.22,0.94,0.74,0.79,101.33,317960.0,0.0,7.0,1.0,G,major,G major
+Ours (Taylor's Version),0.48,0.32,0.32,0.95,0.77,0.8,156.61,235803.0,0.0,7.0,1.0,G,major,G major
+Superman (Taylor's Version),0.5,0.34,0.25,0.95,0.74,0.8,132.51,274945.0,0.0,9.0,1.0,A,major,A major
+Electric Touch (Taylor's Version) [From The Vault],0.39,0.36,0.18,0.96,0.73,0.8,132.51,266466.0,0.0,7.0,1.0,G,major,G major
+When Emma Falls In Love (Taylor's Version) [From The Vault],0.47,0.34,0.25,0.96,0.75,0.8,156.61,252385.0,0.0,2.0,1.0,D,major,D major
+I Can See You (Taylor's Version) [From The Vault],0.43,0.35,0.21,0.95,0.75,0.5,123.05,273186.0,0.0,6.0,0.0,F#,minor,F# minor
+Castles Crumbling (Taylor's Version) [From The Vault],0.48,0.31,0.29,0.97,0.76,0.75,147.66,306062.0,0.0,7.0,1.0,G,major,G major
+Foolish One (Taylor's Version) [From The Vault],0.41,0.32,0.28,0.97,0.76,0.76,97.51,311765.0,0.0,7.0,1.0,G,major,G major
+Timeless (Taylor's Version) [From The Vault],0.5,0.37,0.17,0.93,0.75,0.81,143.55,321396.0,0.0,7.0,1.0,G,major,G major
+Welcome To New York (Taylor's Version),0.48,0.31,0.31,0.97,0.76,0.79,117.45,212600.0,0.0,7.0,1.0,G,major,G major
+Blank Space (Taylor's Version),0.42,0.32,0.28,0.95,0.76,0.49,95.7,231833.0,0.0,5.0,0.0,F,minor,F minor
+Style (Taylor's Version),0.43,0.33,0.27,0.95,0.74,0.79,95.7,231000.0,0.0,9.0,1.0,A,major,A major
+Out Of The Woods (Taylor's Version),0.37,0.34,0.25,0.96,0.75,0.78,92.29,235800.0,0.0,0.0,1.0,C,major,C major
+All You Had To Do Was Stay (Taylor's Version),0.39,0.33,0.3,0.95,0.77,0.49,97.51,193289.0,0.0,0.0,0.0,C,minor,C minor
+Shake It Off (Taylor's Version),0.5,0.35,0.22,0.95,0.74,0.81,161.5,219209.0,0.0,2.0,1.0,D,major,D major
+I Wish You Would (Taylor's Version),0.4,0.33,0.27,0.96,0.75,0.79,117.45,207650.0,0.0,0.0,1.0,C,major,C major
+Bad Blood (Taylor's Version),0.4,0.3,0.31,0.97,0.77,0.79,112.35,211103.0,0.0,11.0,1.0,B,major,B major
+Wildest Dreams (Taylor's Version),0.41,0.32,0.26,0.96,0.75,0.49,123.05,220433.0,0.0,8.0,0.0,G#,minor,G# minor
+How You Get The Girl (Taylor's Version),0.48,0.33,0.27,0.96,0.75,0.5,161.5,247533.0,0.0,5.0,0.0,F,minor,F minor
+This Love (Taylor's Version),0.51,0.32,0.28,0.96,0.75,0.8,143.55,250100.0,0.0,4.0,1.0,E,major,E major
+I Know Places (Taylor's Version),0.38,0.33,0.28,0.96,0.75,0.78,79.51,195700.0,0.0,0.0,1.0,C,major,C major
+Clean (Taylor's Version),0.46,0.28,0.37,0.98,0.77,0.7,103.36,271000.0,0.0,4.0,1.0,E,major,E major
+Wonderland (Taylor's Version),0.45,0.31,0.28,0.97,0.76,0.49,123.05,245566.0,0.0,3.0,0.0,D#,minor,D# minor
+You Are In Love (Taylor's Version),0.42,0.32,0.27,0.96,0.76,0.77,114.84,267389.0,0.0,9.0,1.0,A,major,A major
+New Romantics (Taylor's Version),0.43,0.36,0.21,0.96,0.74,0.49,123.05,230177.0,0.0,5.0,0.0,F,minor,F minor
+"""Slut!"" (Taylor's Version) [From The Vault]",0.39,0.3,0.35,0.96,0.77,0.79,103.36,180381.0,0.0,2.0,1.0,D,major,D major
+Say Don't Go (Taylor's Version) [From The Vault],0.41,0.32,0.27,0.96,0.75,0.79,109.96,279833.0,0.0,11.0,1.0,B,major,B major
+Now That We Don't Talk (Taylor's Version) [From The Vault],0.4,0.3,0.34,0.95,0.78,0.79,109.96,146436.0,0.0,4.0,1.0,E,major,E major
+Suburban Legends (Taylor's Version) [From The Vault],0.42,0.32,0.29,0.95,0.76,0.79,117.45,171818.0,0.0,0.0,1.0,C,major,C major
+Is It Over Now? (Taylor's Version) [From The Vault],0.39,0.36,0.22,0.94,0.75,0.49,99.38,229477.0,0.0,0.0,0.0,C,minor,C minor
+Bad Blood (Remix) [Taylor's Version],0.43,0.31,0.31,0.96,0.76,0.78,84.72,199773.0,0.0,11.0,1.0,B,major,B major
+Sweeter Than Fiction (Taylor's Version),,,,,,,,,,,,nan,nan,nan
+Fortnight,0.43,0.3,0.36,0.97,0.77,0.74,95.7,228965.0,0.0,11.0,1.0,B,major,B major
+The Tortured Poets Department,0.43,0.31,0.3,0.97,0.76,0.48,109.96,293048.0,1.0,0.0,0.0,C,minor,C minor
+My Boy Only Breaks His Favorite Toys,0.39,0.32,0.3,0.98,0.76,0.75,97.51,203801.0,0.0,0.0,1.0,C,major,C major
+Down Bad,0.49,0.28,0.39,0.96,0.78,0.75,161.5,261228.0,1.0,11.0,1.0,B,major,B major
+"So Long, London",0.39,0.28,0.38,0.97,0.78,0.7,117.45,262974.0,0.0,1.0,1.0,C#,major,C# major
+But Daddy I Love Him,0.42,0.35,0.23,0.95,0.75,0.79,105.47,340428.0,1.0,4.0,1.0,E,major,E major
+Fresh Out The Slammer,0.4,0.33,0.22,0.97,0.75,0.78,87.59,210789.0,0.0,9.0,1.0,A,major,A major
+Florida!!!,0.47,0.34,0.23,0.95,0.75,0.8,152.0,215463.0,1.0,7.0,1.0,G,major,G major
+Guilty As Sin?,0.46,0.34,0.25,0.95,0.75,0.78,95.7,254365.0,0.0,2.0,1.0,D,major,D major
+Who's Afraid Of Little Old Me?,0.4,0.29,0.35,0.97,0.77,0.77,123.05,334084.0,0.0,9.0,1.0,A,major,A major
+I Can Fix Him (No Really I Can),0.45,0.27,0.39,0.96,0.79,0.79,123.05,156297.0,0.0,9.0,1.0,A,major,A major
+loml,0.41,0.26,0.42,0.98,0.8,0.65,117.45,277156.0,1.0,0.0,1.0,C,major,C major
+I Can Do It With A Broken Heart,0.43,0.33,0.26,0.95,0.76,0.8,129.2,218004.0,1.0,0.0,1.0,C,major,C major
+The Smallest Man Who Ever Lived,0.41,0.29,0.31,0.97,0.79,0.42,95.7,245541.0,1.0,5.0,0.0,F,minor,F minor
+The Alchemy,0.45,0.33,0.28,0.96,0.75,0.47,99.38,196900.0,0.0,0.0,0.0,C,minor,C minor
+Clara Bow,0.43,0.3,0.31,0.96,0.77,0.71,103.36,216662.0,0.0,2.0,1.0,D,major,D major
+The Black Dog,0.46,0.31,0.3,0.95,0.77,0.77,152.0,238857.0,1.0,0.0,1.0,C,major,C major
+imgonnagetyouback,0.42,0.32,0.29,0.95,0.76,0.79,109.96,222072.0,0.0,9.0,1.0,A,major,A major
+The Albatross,0.37,0.3,0.3,0.97,0.77,0.72,112.35,183878.0,0.0,6.0,1.0,F#,major,F# major
+Chloe Or Sam Or Sophia Or Marcus,0.4,0.28,0.36,0.97,0.78,0.71,95.7,213281.0,0.0,4.0,1.0,E,major,E major
+How Did It End?,0.46,0.29,0.29,0.98,0.77,0.7,143.55,238706.0,0.0,0.0,1.0,C,major,C major
+So High School,0.4,0.35,0.22,0.95,0.75,0.79,117.45,228800.0,0.0,7.0,1.0,G,major,G major
+I Hate It Here,0.36,0.31,0.3,0.96,0.76,0.77,86.13,243875.0,0.0,2.0,1.0,D,major,D major
+thanK you aIMee,0.36,0.32,0.28,0.96,0.76,0.78,95.7,263817.0,1.0,2.0,1.0,D,major,D major
+I Look In People's Windows,0.43,0.29,0.34,0.95,0.77,0.48,89.1,131907.0,0.0,4.0,0.0,E,minor,E minor
+The Prophecy,0.43,0.29,0.33,0.96,0.78,0.5,132.51,249807.0,0.0,10.0,0.0,A#,minor,A# minor
+Cassandra,0.47,0.3,0.29,0.97,0.77,0.42,143.55,240205.0,1.0,0.0,0.0,C,minor,C minor
+Peter,0.43,0.32,0.21,0.96,0.75,0.77,132.51,283957.0,0.0,0.0,1.0,C,major,C major
+The Bolter,0.4,0.31,0.29,0.97,0.76,0.76,92.29,238241.0,1.0,0.0,1.0,C,major,C major
+Robin,0.44,0.27,0.37,0.98,0.78,0.65,136.0,240893.0,0.0,4.0,1.0,E,major,E major
+The Manuscript,0.39,0.28,0.3,0.98,0.77,0.68,95.7,224743.0,0.0,5.0,1.0,F,major,F major
+The Fate Of Ophelia,0.58,0.31,0.28,0.97,0.76,0.49,123.05,226073.0,0.0,9.0,0.0,A,minor,A minor
+Elizabeth Taylor,0.57,0.33,0.24,0.97,0.75,0.8,166.71,208291.0,0.0,2.0,1.0,D,major,D major
+Opalite,0.59,0.33,0.26,0.96,0.76,0.8,126.05,235355.0,0.0,9.0,1.0,A,major,A major
+Father Figure,0.49,0.31,0.3,0.97,0.77,0.77,92.29,212777.0,1.0,9.0,1.0,A,major,A major
+Eldest Daughter,0.52,0.32,0.3,0.95,0.77,0.8,152.0,246356.0,1.0,7.0,1.0,G,major,G major
+Ruin The Friendship,0.49,0.31,0.3,0.97,0.77,0.8,156.61,220564.0,0.0,7.0,1.0,G,major,G major
+Actually Romantic,0.41,0.31,0.28,0.96,0.77,0.48,84.72,163699.0,1.0,4.0,0.0,E,minor,E minor
+Wi$h Li$t,0.52,0.28,0.37,0.97,0.78,0.75,152.0,207349.0,1.0,0.0,1.0,C,major,C major
+Wood,0.46,0.3,0.32,0.96,0.78,0.48,99.38,150517.0,1.0,7.0,0.0,G,minor,G minor
+CANCELLED!,0.46,0.3,0.31,0.97,0.77,0.76,89.1,211498.0,1.0,9.0,1.0,A,major,A major
+Honey,0.57,0.3,0.32,0.97,0.77,0.8,161.5,181534.0,1.0,2.0,1.0,D,major,D major
+The Life Of A Showgirl,0.56,0.3,0.3,0.97,0.76,0.8,172.27,241766.0,1.0,7.0,1.0,G,major,G major
