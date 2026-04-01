@@ -1,0 +1,219 @@
+%me=0 student solutions, me=1 - my solutions, me=2 - assignment
+\def\me{0}
+\def\num{4}  %homework number
+\def\due{April 16, 2026}  %due date
+\def\course{COMS BC3262} %course name
+\def\name{}
+%
+
+%
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{hyperref}
+
+
+\usetikzlibrary{automata,positioning}
+\setlength{\oddsidemargin}{.0in}
+\setlength{\evensidemargin}{.0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-0.4in}
+\setlength{\textheight}{8.5in}
+
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{#1, Page \arabic{page}}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { {\bf \course} \hfill #2 }
+       \vspace{4mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { {\it #3 \hfill #4} }
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+
+\newcounter{pppp}
+\newcommand{\prob}{\arabic{pppp}}  %problem number
+\newcommand{\increase}{\addtocounter{pppp}{1}}  %problem number
+
+\newcommand{\newproblem}[2]{\increase
+\section*{Problem \prob~(#1) \hfill {#2}}}
+
+
+\def\squarebox#1{\hbox to #1{\hfill\vbox to #1{\vfill}}}
+\def\qed{\hspace*{\fill}
+        \vbox{\hrule\hbox{\vrule\squarebox{.667em}\vrule}\hrule}}
+\newenvironment{solution}{\begin{trivlist}\item[]{\bf Solution:}}
+                      {\qed \end{trivlist}}
+\newenvironment{solsketch}{\begin{trivlist}\item[]{\bf Solution Sketch:}}
+                      {\qed \end{trivlist}}
+\newenvironment{code}{\begin{tabbing}
+12345\=12345\=12345\=12345\=12345\=12345\=12345\=12345\= \kill }
+{\end{tabbing}}
+
+%\newcommand{\eqref}[1]{Equation~(\ref{eq:#1})}
+
+\newcommand{\hint}[1]{({\bf Hint}: {#1})}
+%Put more macros here, as needed.
+\newcommand{\room}{\medskip\ni}
+\newcommand{\brak}[1]{\langle #1 \rangle}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\zo}{\{0,1\}}
+
+\newcommand {\eps} {\varepsilon}
+
+\newcommand{\nin}{\not\in}
+\newcommand{\set}[1]{\{#1\}}
+\renewcommand{\ni}{\noindent}
+\renewcommand{\gets}{\leftarrow}
+\renewcommand{\to}{\rightarrow}
+\newcommand{\assign}{:=}
+
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+
+\newcommand{\For}{\mbox{\bf For }}
+\newcommand{\To}{\mbox{\bf to }}
+\newcommand{\Do}{\mbox{\bf Do }}
+\newcommand{\If}{\mbox{\bf If }}
+\newcommand{\Then}{\mbox{\bf Then }}
+\newcommand{\Else}{\mbox{\bf Else }}
+\newcommand{\While}{\mbox{\bf While }}
+\newcommand{\Repeat}{\mbox{\bf Repeat }}
+\newcommand{\Until}{\mbox{\bf Until }}
+\newcommand{\Return}{\mbox{\bf Return }}
+
+
+\newcommand{\KeyGen}{\mathsf{KeyGen}}
+\newcommand{\Enc}{\mathsf{Enc}}
+\newcommand{\Dec}{\mathsf{Dec}}
+\newcommand{\MAC}{\mathsf{MAC}}
+
+\newcommand {\A} {\mathcal{A}}
+\newcommand {\K} {\mathcal{K}}
+\newcommand {\C} {\mathcal{C}}
+\newcommand {\M} {\mathcal{M}}
+\newcommand {\T} {\mathcal{T}}
+\newcommand {\U} {\mathcal{U}}
+\newcommand {\V} {\mathcal{V}}
+
+\newcommand{\B}{\mathcal{B}}
+
+\newcommand {\ZZ} {\mathbb{Z}}
+\newcommand {\FF} {\mathbb{F}}
+\newcommand {\NN} {\mathbb{N}}
+\newcommand {\RR} {\mathbb{R}}
+
+\def \SD {\mathsf{SD}}
+\def \hinf {H_{\infty}}
+
+\def \poly {\mathsf{poly}}
+\def \negl {\mathsf{negl}}
+
+\def \GroupGen {\mathcal{G}}
+\def \G {\mathbb{G}}
+
+\def \Commit {\mathsf{Commit}}
+
+\begin{document}
+
+\ifnum\me=0
+\handout{PS\num}{\today}{Name: }{Due:
+\due}{Solutions to Problem Set \num}
+
+I collaborated with *********** INSERT COLLABORATORS HERE (INDICATING
+SPECIFIC PROBLEMS) *************.
+\fi
+\ifnum\me=1
+\handout{PS\num}{\today}{Professor: Eysa Lee}{Due: \due}{Solutions to Problem Set \num}
+\fi
+\ifnum\me=2
+\handout{PS\num}{\today}{Professor: Eysa Lee}{Due: \due}{Problem
+Set \num}
+\fi
+
+
+\ifnum\me=2
+\paragraph{Guidelines.} Solutions will be graded for correctness and clarity.
+If you do not know how to solve a problem, you may write \textbf{``I don't know how to do this''} to receive $20\%$ credit for any problem not marked as extra credit.
+In your proofs, justify every step and, if needed, write down definitions/theorems from class or the textbook and that you rely on. When refuting a claim, provide a counterexample and show that it does not satisfy the required definition.
+
+
+\paragraph{Collaboration.} You are allowed to discuss problems with other students in the class. However, you should write up your solutions on your own and may not read or copy the solutions of others. You should try solving each problem on your own before discussing with others. \textbf{If you work with others on a problem, you must note with whom you discussed the problem at the beginning of your solution write-up.} For example, ``I discussed Problem 1 with Alice and Bob and Problem 2 with Carol.''
+You may not use external resources apart from the textbooks.
+
+\paragraph{Generative AI Policy.} The use of generative AI for anything related to assignments is prohibited in this class. \textbf{It is always prohibited to input any substantial portion of any assignment into any AI resource.} It is also always forbidden to incorporate any substantive portion of an AI resource's output into your answers, even if you paraphrase it or rewrite it in your own words.
+\newpage
+\fi
+
+
+\newproblem{Discrete Log vs CDH vs DDH}{10 pts} Let $(\G, g, q) \gets \GroupGen(1^n)$ be a group generation algorithm that generates a cyclic group $\G = \langle g \rangle$ with generator $g$ of order $|\G|=q$. You can assume that $q \geq 2^n$ for the security parameter $n$.
+
+\begin{itemize}
+	\item Show that if the DDH assumption holds then this  implies that the CDH assumption holds which in turn implies that the Discrete Logarithm assumption holds over this group. 
+
+	\item Show that if the discrete logarithm assumption does \emph{not} hold in this group then the Diffie-Hellman Key Exchange protocol is insecure over this group.
+
+
+\end{itemize} 
+
+\newproblem{Playing with ElGamal Ciphertexts}{10 pts}  Let $(\G, g, q) \gets \GroupGen(1^n)$ be a group generation algorithm that generates a cyclic group $\G = \langle g \rangle$ with generator $g$ of order $|\G|=q$. Recall that the ElGamal encryption scheme has public key $pk = h = g^x$ and $sk = x$. The encryption procedure computes $\Enc(pk,m) = (g^r, h^r \cdot m)$ where $r \gets \ZZ_q$.
+
+\begin{itemize}
+	\item (Plaintext Multiplication) Show that given a public key $pk$ and any two ElGamal ciphertexts $c_1, c_2$ encrypting some unknown messages $m_1, m_2 \in \G$ respectively under the public key $pk$, we can efficiently create a new  ciphertext $c^*$ encrypting $m^* = m_1 \cdot m_2$ under $pk$ without needing to know  $sk, m_1, m_2$.
+
+
+
+		\item(Re-randomization) Given a public key $pk$ and an ElGamal ciphertext $c$ encrypting some unknown messages $m \in \G$, show how to create another ciphertext $c' \neq c$ that encrypts the same message $m$ under $pk$ but with fresh independent randomness.  In other words $c'$ should have the same distribution as a fresh and independently generated encryption of $m$ under $pk$. 
+
+
+\end{itemize}
+
+\newproblem{Pseudorandom Generators}{10 pts} Let $(\G, g, q) \gets \mathcal{G}(1^n)$ and let $h \gets \G$ be a random group element. Assume that the values $pub = (\G,g,q,h)$ are made public to everyone, including the adversary. Consider the following candidate pseuodrandom generator 
+$$G(x) = (g^x, h^x)$$
+where the seed is a random $x \gets  \ZZ_q$ and the output consists of 2 group elements. (This is slightly different than the one we mentioned in class.)
+
+\begin{itemize}
+	\item Show that this is a secure pseduorandom generator under the DDH assumption, meaning that for a random $x \gets \ZZ_q$, the output $G(x)$ is indistinguishable from two uniformly random group elements (even to an adversary who is given the public values $pub$). 
+
+	
+	\item Now consider the case where the public values $pub = (\G,g,q,h)$ are themselves chosen by an adversary, but they must still be chosen from the correct distribution. Show that an adversary can sample $pub$ in a way that allows her to easily break the pseudorandomness property. In particular, the adversary can distinguish $G(x)$ for a random  $x \gets  \ZZ_q$ from two truly random group elements.\\ (hint: let the adversary choose $h =g^y$ for a random  $y$ that she knows.)
+
+
+\end{itemize}
+
+(Note: One of the Snowden revelations showed that the NSA tried to use (a more complex variant of) the above trick. They pushed for the standardization of a pseudorandom generator that was a variant of the above and they chose the value $pub$. It is widely believed that they chose this value in a way that would allow them to distinguish the outputs from random, while ensuring that nobody else could. See \url{https://en.wikipedia.org/wiki/Dual_EC_DRBG}) 
+
+
+
+
+
+
+\newproblem{Amplifying a Discrete Log Attack}{10 pts}
+
+Fix  some cyclic group $\G$ of order $q$ with generator $g$. Suppose that for this group, there exists a randomized algorithm $\A$ that runs in time $T$ and solves the discrete logarithm problem \emph{on average} with probability $\eps$ meaning that
+ $$\Pr_{x \gets \ZZ_q}[\A(g^x) =x] \geq \eps$$ Note that this probability is over a random $ x \gets \ZZ_q$ and also any additional randomness used by $\A$. Assume that multiplication and exponentiation in the group can be performed in $O(T)$ time.
+
+\begin{itemize}
+	\item Show that there is also a randomized algorithm $\B$ that runs in time $O(T)$ and solves the discrete logarithm problem  \emph{in the worst} case with probability $\eps$, meaning that for \emph{every} $x \in \ZZ_q$ we have
+	$$ \Pr[\B(g^x) =x] \geq \eps.$$
+   (hint: $\B$ needs to call $\A$ on a random value to have any guarantee that $\A$ succeeds. Think how to add some randomness to $g^x$ to derive a random group element whose discrete log would reveal $x$.) 
+   
+   \item  Show that for every $\ell$, there is also a randomized algorithm $\B'$ that runs in time $O(T \cdot \ell)$ and solves the discrete logarithm problem  \emph{in the worst} case with probability $\delta := 1 - (1-\eps)^\ell$, meaning that for \emph{every} $x \in \ZZ_q$ we have
+   $$ \Pr[\B'(g^x) =x] \geq \delta.$$ For example if $\A$ succeeds with probability $\eps = 1/2$ then by setting $\ell=10$ we require $\B'$ to succeed with probability $1 - 1/2^{10} = 1 - 1/1024 > .999$. \\
+   (hint: have $\B'$ run $\B$ many times)
+
+\end{itemize}
+
+
+
+Note: The above shows that if the discrete logarithm problem is even slightly hard in the worst case (there is no randomized algorithm that can solve it for every $x$ with $>.999$ probability) then it is also hard in the average case (no algorithm can solve it for a random $x$ with non-negligible probability). 
+
+\end{document}
