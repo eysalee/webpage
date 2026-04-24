@@ -1,0 +1,192 @@
+%me=0 student solutions, me=1 - my solutions, me=2 - assignment
+\def\me{0}
+\def\num{5}  %homework number
+\def\due{April 30, 2026}  %due date
+\def\course{COMS BC3262} %course name
+\def\name{}
+%
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+\usetikzlibrary{automata,positioning}
+\setlength{\oddsidemargin}{.0in}
+\setlength{\evensidemargin}{.0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-0.4in}
+\setlength{\textheight}{8.5in}
+
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{#1, Page \arabic{page}}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { {\bf \course} \hfill #2 }
+       \vspace{4mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { {\it #3 \hfill #4} }
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+
+\newcounter{pppp}
+\newcommand{\prob}{\arabic{pppp}}  %problem number
+\newcommand{\increase}{\addtocounter{pppp}{1}}  %problem number
+
+\newcommand{\newproblem}[2]{\increase
+\section*{Problem \prob~(#1) \hfill {#2}}}
+
+
+\def\squarebox#1{\hbox to #1{\hfill\vbox to #1{\vfill}}}
+\def\qed{\hspace*{\fill}
+        \vbox{\hrule\hbox{\vrule\squarebox{.667em}\vrule}\hrule}}
+\newenvironment{solution}{\begin{trivlist}\item[]{\bf Solution:}}
+                      {\qed \end{trivlist}}
+\newenvironment{solsketch}{\begin{trivlist}\item[]{\bf Solution Sketch:}}
+                      {\qed \end{trivlist}}
+\newenvironment{code}{\begin{tabbing}
+12345\=12345\=12345\=12345\=12345\=12345\=12345\=12345\= \kill }
+{\end{tabbing}}
+
+
+\newcommand{\hint}[1]{({\bf Hint}: {#1})}
+%Put more macros here, as needed.
+\newcommand{\room}{\medskip\ni}
+\newcommand{\brak}[1]{\langle #1 \rangle}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\zo}{\{0,1\}}
+
+\newcommand {\eps} {\varepsilon}
+
+\newcommand{\nin}{\not\in}
+\newcommand{\set}[1]{\{#1\}}
+\renewcommand{\ni}{\noindent}
+\renewcommand{\gets}{\leftarrow}
+\renewcommand{\to}{\rightarrow}
+\newcommand{\assign}{:=}
+
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+
+\newcommand{\For}{\mbox{\bf For }}
+\newcommand{\To}{\mbox{\bf to }}
+\newcommand{\Do}{\mbox{\bf Do }}
+\newcommand{\If}{\mbox{\bf If }}
+\newcommand{\Then}{\mbox{\bf Then }}
+\newcommand{\Else}{\mbox{\bf Else }}
+\newcommand{\While}{\mbox{\bf While }}
+\newcommand{\Repeat}{\mbox{\bf Repeat }}
+\newcommand{\Until}{\mbox{\bf Until }}
+\newcommand{\Return}{\mbox{\bf Return }}
+
+
+\newcommand{\Gen}{\mathsf{Gen}}
+\newcommand{\Enc}{\mathsf{Enc}}
+\newcommand{\Dec}{\mathsf{Dec}}
+\newcommand{\MAC}{\mathsf{MAC}}
+
+\newcommand{\Sign}{\mathsf{Sign}}
+\newcommand{\Verify}{\mathsf{Verify}}
+
+
+\newcommand {\A} {\mathcal{A}}
+\newcommand {\K} {\mathcal{K}}
+\newcommand {\C} {\mathcal{C}}
+\newcommand {\M} {\mathcal{M}}
+\newcommand {\T} {\mathcal{T}}
+\newcommand {\U} {\mathcal{U}}
+\newcommand {\V} {\mathcal{V}}
+
+\newcommand{\B}{\mathcal{B}}
+
+\newcommand {\ZZ} {\mathbb{Z}}
+\newcommand {\FF} {\mathbb{F}}
+\newcommand {\NN} {\mathbb{N}}
+\newcommand {\RR} {\mathbb{R}}
+
+\def \SD {\mathsf{SD}}
+\def \hinf {H_{\infty}}
+
+\def \poly {\mathsf{poly}}
+\def \negl {\mathsf{negl}}
+
+\def \GroupGen {\mathsf{GroupGen}}
+\def \G {\mathbb{G}}
+
+\def \Commit {\mathsf{Commit}}
+
+\begin{document}
+
+\ifnum\me=0
+\handout{PS\num}{\today}{Name: }{Due:
+\due}{Solutions to Problem Set \num}
+
+I collaborated with *********** INSERT COLLABORATORS HERE (INDICATING
+SPECIFIC PROBLEMS) *************.
+\fi
+\ifnum\me=1
+\handout{PS\num}{\today}{Professor: Eysa Lee}{Due: \due}{Solutions to Problem Set \num}
+\fi
+\ifnum\me=2
+\handout{PS\num}{\today}{Professor: Eysa Lee}{Due: \due}{Problem
+Set \num}
+\fi
+
+
+
+\newproblem{RSA Example}{10 pts}
+
+Let $p= 3, q=5$, and $N = pq = 15$. Your answers can be concise. You do \emph{not} need to write more than what is being asked in the question (you can, but you don't have to).
+\begin{itemize}
+	\item What is $\phi(N)$? 
+	
+	\item Let $e=3$. What is $d = e^{-1} \bmod \phi(N)$?
+	
+	\item 
+    For every value $x \in \ZZ_N^*$, compute $x^3 \bmod N$. 
+    Is the function $f(x) = x^3 \bmod N$ a permutation over $\ZZ_N^*$? 
+	
+	\item 
+    For every value $x \in \ZZ_N^*$, compute $x^2 \bmod N$. 
+    Is the function $f(x) = x^2 \bmod N$ a permutation over $\ZZ_N^*$? 
+	
+\end{itemize}
+ 
+
+\newproblem{Encrypting Bit-by-Bit}{20 pts}
+
+Assume $(\Gen,\Enc,\Dec)$ is some public-key encryption scheme where the encryption algorithm encrypts a single bit message. Define the following scheme $(\Gen,\Enc',\Dec')$  for encrypting arbitrary-length messages where $\Enc'_{pk}(m_1, \cdots,m_{\ell}) = \Enc_{pk}(m_1),\cdots, \Enc_{pk}(m_{\ell})$ encrypts each bit $m_i$ of the message separately and $\Dec'_{sk}(c_1,\ldots,c_\ell) = \Dec_{sk}(c_1),\cdots,\Dec_{sk}(c_\ell)$.
+
+\begin{itemize}
+	\item If $(\Gen, \Enc, \Dec)$ is CPA secure, is $(\Gen, \Enc', \Dec')$ also guaranteed to be CPA secure? Either prove that this holds or give a counter-example. For a proof, you do \emph{not} need to give a formal reduction. A clear high-level argument will suffice for arguing security.
+	
+	\item  If $(\Gen, \Enc, \Dec)$ is CCA secure, is $(\Gen, \Enc', \Dec')$ also guaranteed to be CCA secure? Either prove that this holds or give a counter-example. For a proof, you do \emph{not} need to give a formal reduction. A clear high-level argument will suffice for arguing security.
+	
+\end{itemize}
+
+
+\newproblem{Signature}{10 pts} 
+
+Assume $(\Gen, \Sign, \Verify)$ is a secure signature scheme. Consider a modified scheme that signs the first and second half of the message bits separately. That is, we define  $(\Gen, \Sign', \Verify')$ where
+	\begin{itemize}
+		\item 	$\Sign'_{sk}(m)$: Let $m=m_1||m_2$, where $m_1$ denotes the first half of the bits and $m_2$ denotes the second half. Compute  $\sigma_1 = \Sign_{sk}(m_1), \sigma_2 = \Sign_{sk}(m_2)$, and output $\sigma = \sigma_1||\sigma_2$
+        \item $\Verify'_{pk}(m = m_1||m_2, \sigma = \sigma_1||\sigma_2)$. Accept if $\Verify_{pk}(m_1,\sigma_1)$ and $\Verify_{pk}(m_2,\sigma_2)$ both hold. 	
+	\end{itemize}
+Is the modified scheme also guaranteed to be secure? Prove your answer or show otherwise. 
+
+
+\newproblem{$\ZZ_N$ vs $\ZZ_N^*$}{Extra Credit 10 pts} 
+Assume that the factoring assumption holds for some $\mathsf{GenModulus}$ that samples two random $n$-bit primes $p,q$ and computes $N=pq$. Show that this implies that % given $N=pq$ for random $n$-bit primes $p,q$,
+it is hard to find any $x \in \ZZ_N$ such that $x \not \in \ZZ^*_N$. That is, the probability  More formally, for any PPT algorithm $\A$ we have:
+
+$$\Pr_{N \gets \mathsf{GenModulus}(1^n)}[ \A(N) \in  \{1,\ldots,N-1\} \setminus \ZZ_N^* ] = \negl(n)$$
+where $\A(N)$ denotes $\A$'s output (i.e. guess $x$) when given $N$. 
+
+\end{document}
