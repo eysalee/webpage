@@ -61,14 +61,14 @@
   <div class="container mt-3 d-block d-sm-none">
     <div class="row">
       <div class="col-5 d-block d-sm-none">
-        <img src="images/me.jpg" alt="me.jpeg" width="100%" height="auto">
+        <img id="mainPhoto1" src="images/me.jpg" alt="Main website photo" width="100%" height="auto">
       </div>
     </div>
   </div>
   <div class="container mt-3">
     <div class="row">
       <div class="col-5 d-none d-sm-block">
-        <img src="images/me.jpg" alt="me.jpeg" width="100%" height="auto">
+        <img id="mainPhoto2" src="images/me.jpg" alt="Main website photo" width="100%" height="auto">
       </div>
       <div id="About Me" class="col-6">
       	<h2>Eysa Lee</h2>
@@ -96,15 +96,14 @@
         <br>
       <br>
 
-        In my spare time, I enjoy <a href="https://cryptodoodles.wordpress.com/">doodling</a>, as evident by the <a href="https://github.com/eysalee/alice-and-bobs">Alice and Bob characters</a> in my presentations.
-        
-        <br>
-        <br>
+
 
         I generally try to stay on top of emails, but somethings things get lost in my inbox (especially while traveling). If you don't hear back within a week, feel free to send a follow-up. I kindly request you refrain from overuse of generative AI in emails to me.
+        <br>
+        <br>
+        <b>If you would like to work with me, please see this <a href="workwithme.html">page</a> for more information.</b>
 
-        <br>
-        <br>
+        <br><br>
 
 
         <h5>Quick Links to Fall 2026 Courses:</h5>
@@ -112,13 +111,16 @@
           <li><a href="courses/f26/bc3997.html">COMS BC3997</a> (New Directions in Computing: Applied Cryptography)</li>
           <li><a href="courses/f26/bc1016.html">COMS BC1016</a> (Introduction to Computational Thinking and Data Science)</li>
         </ul>
-        <h5>Fall 2026 Office Hours:</h5> Monday/Wednesday 4-5pm (Milstein 512) or by appointment
+        <b>Fall 2026 Office Hours:</b> Monday/Wednesday 4-5pm (Milstein 512) or by appointment
 
-        
         <br>
         <br>
-        <h5>How to pronounce my name:</h5>
+        <b>How to pronounce my name:</b>
         My name is pronounced like Lisa without the "L" or Isa like <a href="https://www.nick.com/info-page/2azwci/isa-the-iguana">"Isa the Iguana" from Dora the Explorer</a> (unfortunately I do not know any cool facts about the rainforest... but I did once disappoint a small child by not being an iguana).
+        <br>
+        <br>
+        <b>Misc:</b>
+        In my spare time, I enjoy <a href="https://cryptodoodles.wordpress.com/">doodling</a>, as evident by the <a href="https://github.com/eysalee/alice-and-bobs">Alice and Bob characters</a> in my presentations.
         <br>
         <br>
         <br>
@@ -185,6 +187,36 @@
         <br><br>
         
     </div>
+
+<script>
+  now = new Date();
+  if ((now.getSeconds() % 12) == 0){
+    document.getElementById("mainPhoto1").src = "images/lechatblanc.jpeg";
+    document.getElementById("mainPhoto2").src = "images/lechatblanc.jpeg";
+  } else if ((now.getSeconds() % 12) == 1){
+    document.getElementById("mainPhoto1").src = "images/concern.jpg";
+    document.getElementById("mainPhoto2").src = "images/concern.jpg";
+  } else if ((now.getSeconds() % 12) == 2){
+    document.getElementById("mainPhoto1").src = "images/waterfall.JPG";
+    document.getElementById("mainPhoto2").src = "images/waterfall.JPG";
+  } else if ((now.getSeconds() % 12) == 3){
+    document.getElementById("mainPhoto1").src = "images/clouds.JPG";
+    document.getElementById("mainPhoto2").src = "images/clouds.JPG";
+  } else if ((now.getSeconds() % 12) == 4){
+    document.getElementById("mainPhoto1").src = "images/elevator.jpg";
+    document.getElementById("mainPhoto2").src = "images/elevator.jpg";
+  } 
+  else if ((now.getSeconds() % 12) == 5){
+    document.getElementById("mainPhoto1").src = "images/serious.PNG";
+    document.getElementById("mainPhoto2").src = "images/serious.PNG";
+  } else if ((now.getSeconds() % 12) == 6){
+    document.getElementById("mainPhoto1").src = "images/bow.JPG";
+    document.getElementById("mainPhoto2").src = "images/bow.JPG";
+  } else {
+    document.getElementById("mainPhoto1").src = "images/me.jpg";
+    document.getElementById("mainPhoto2").src = "images/me.jpg";
+  }
+</script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
