@@ -7,9 +7,9 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<!-- 
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:500" rel="stylesheet">
-  <link href="../../styles.css" rel="stylesheet"> -->
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:500" rel="stylesheet"> -->
+  <!-- <link href="../../styles.css" rel="stylesheet"> -->
 
   <title>COMS BC1016 Fall '26</title>
 </head>
@@ -47,6 +47,8 @@
     <p>The final project for BC1016 provides an opportunity to bring together, apply, and communicate your knowledge of data science and statistics from this course. You will work in groups of 2 to choose one of the provided datasets to analyze and submit a writeup of your analysis and conclusions. </p>
     <!-- <br> -->
 
+    <hr style="background-color:#398ec9;">
+
         <h5>AI and Usage of Outside Resources</h5>
     <p>
     As a reminder, the syllabus states: 
@@ -60,7 +62,9 @@
       <b>If you like to do anything more advanced than what we have covered in class</b>, you must include a brief explanation of where you learned these concepts. For instance, if you have taken prior statistics classes and would like to perform a more complicated analysis or if you have experience with (and would like to use) Python libraries we have not covered in class. 
     </p>
 
-    <h3>Project Milestones and Deadlines</h3>
+    <hr style="background-color:#398ec9;">
+
+    <h2>Project Milestones and Deadlines</h2>
     <p>
     <ol>
       <li><b><u>Group Declaration</u></b>: Deadline <b>Friday, Nov 6</b> at 11:59pm
@@ -84,6 +88,8 @@
     </ol>
     Note: We will require all students to complete a peer review to share how work was distributed among team members. Any major discrepancies in the distribution of work will be factored into individual grades on this assignment.
     <br><br>
+
+    <!-- <hr style="background-color:#398ec9"> -->
     <h5>Final Project Grading Breakdown:</h5>
     <ul>
       <li>Group Declaration - 1%</li>
@@ -118,12 +124,50 @@
       For the progress report, you will be required to complete the Exploratory Data Analysis (graphs, tables, and sentence explanations). You should have most of the Hypothesis Testing sections. In particular, you must have a clearly stated null and alternative hypothesis, a clearly stated test statistic, and code for your hypothesis test. Your code for the hypothesis test does not need to work or be correct, but you must have started it. You are not required to have completed the prediction section, but you should list your plan and what remains to be done for the prediction section. If you are running into any issues with your final project, you should include this in your progress report.
     </p>
 
+<hr style="background-color:#398ec9; height: 2px;">
 
-    <h3>Datasets</h3>
+    <h2>Datasets</h2>
+    <p>Our wonderful TAs have curated some datasets for you to analyze for your final projects.
+    <em><b>Please note you may not copy or reference any existing or public analysis of any of these datasets. Doing so will result in a zero.</b></em>
+    </p>
+    <ul>
+    <li><h5>NYC Restaurant Inspections
+     - 
+     <a href="https://bccoms-1016-lee-20263.hub.cuit.columbia.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Feysalee%2Fcomsbc1016_final_projects&urlpath=lab%2Ftree%2Fcomsbc1016_final_projects%2FNYC_Restaurants%2Frestaurant_final_project.ipynb&branch=main">Link to starter notebook</a>
+    </h5>
+        <p>
+          The New York Department of Health and Mental Hygiene (DOHMH) provides a <a href="https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data">database of all violations</a>, both confirmed and still being reviewed, from all restaurant and college cafeteria inspections done in the past three years .
+      The Restaurant health data provided was downloaded Oct 2025 and has been separated into three datasets: Grade, Location, and Violation.
+        </p>
+      </li>
+    <li><h5>Seattle Pet Licenses
+      - 
+      <a href="https://bccoms-1016-lee-20263.hub.cuit.columbia.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Feysalee%2Fcomsbc1016_final_projects&urlpath=lab%2Ftree%2Fcomsbc1016_final_projects%2FPet_Licenses%2Fpet-final-project.ipynb&branch=main">Link to starter notebook</a>
+    </h5>
     <p>
-    <em>This section will be updated with more information. Stay tuned!</em></p>
+      The city of Seattle makes available its <a href="https://data.seattle.gov/City-Administration/Seattle-Pet-Licenses/jguv-t9rb/about_data">database of pet licenses</a> issued from Jan 2017 to Oct 2025 as part of the city's ongoing Open Data Initiative. We have also prepared two additional datasets. The first is the <a href="https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-2022-zip-code-data-soi">Statistics of Income (SOI) dataset</a> for WA from the 2022 tax year, which features the number of tax returns received by the IRS from each zip code broken out by several income brackets. The second is the <a href="https://data.seattle.gov/Community-and-Culture/Seattle-Parks-And-Recreation-Park-Addresses/v5tj-kqhc/about_data">Seattle Parks and Recreation Park Addresses</a>.
+    </p>
+  </li>
+      <li><h5>College Scorecard: Colleges, Majors, and Earnings
+        - <a href="College_Scorecard/college-final-project.ipynb">Link to starter notebook</a>
+      </h5>
+      <p>
+        The U.S. Department of Education publishes the <a href="https://www.google.com/url?q=https%3A%2F%2Fcollegescorecard.ed.gov%2Fdata%2F">College Scorecard</a> to help students compare colleges on cost, debt, graduation rates, and how much graduates go on to earn. The data comes from federal financial aid records, tax records, and reports colleges submit to the government.
 
-    <h3>Report Sections</h3>
+        We have provided 3 datasets from the most recent College Scorecard release (October 2026): information about colleges, information about the majors offered at those colleges, and a table that groups majors into broad fields of study.
+      </p>
+      </li>
+      <li><h5>Duolingo - <a href="https://bccoms-1016-lee-20263.hub.cuit.columbia.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Feysalee%2Fcomsbc1016_final_projects&urlpath=lab%2Ftree%2Fcomsbc1016_final_projects%2FDuolingo%2Fduolingo-final-project.ipynb&branch=main">Link to starter notebook</a></h5>
+        <p>
+          Duolingo is a free language learning app where learners practice words through short lessons. In 2016, Duolingo researchers released a large dataset of learners' practice history along with their paper <em><a href="https://www.google.com/url?q=https%3A%2F%2Faclanthology.org%2FP16-1174%2F">A Trainable Spaced Repetition Model for Language Learning</a></em> (Settles & Meeder, 2016). The data is available on the <a href="https://www.google.com/url?q=https%3A%2F%2Fdataverse.harvard.edu%2Fdataset.xhtml%3FpersistentId%3Ddoi%3A10.7910%2FDVN%2FN8XJME">Harvard Dataverse</a>.
+          We have provided 3 datasets: a record of practice sessions, a table of the words being practiced, and a small table of facts about each language.
+        </p>
+      </li>
+    </ul>
+
+    <hr  style="background-color:#398ec9; height: 2px;">
+
+    <h2>Report Sections</h2>
     <p>
     Starter notebooks will include an outline of the required components of the final report. The teaching staff can assist in brain storming analyses to consider, but your team should ultimately decide what question is most interesting to you. The report includes the following sections:
   </p>
@@ -205,6 +249,8 @@
         <li>State at least one potential limitation of your data or analysis. Are there potential sources of bias in your data?</li>
       </ol>
     </p>
+
+    <hr style="background-color:#398ec9;">
 
     <h3>Report Tips</h3>
     <ol>

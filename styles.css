@@ -36,3 +36,7 @@ tr.bordered {
 a:hover {
 	text-decoration: underline;
 }
+
+hr {
+	background-color:#398ec9;
+}
