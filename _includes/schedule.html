@@ -1,0 +1,85 @@
+{% assign calendar_data = site.data[include.file] %}
+
+    <h4>Lecture Schedule</h4>
+
+    <p>The schedule below will be updated as the course progresses.</p>
+      <p>
+      <table class="table table-bordered" style="margin-left:auto; margin-right:auto;">
+        <thead class="thead-light">
+      <tr>
+        <th style="width: 80px;">Week</th>
+        <th style="width: 80px;">Date</th>
+        <th style="width: 500px;">Topic</th>
+        {% if calendar_data.lab %}
+        <th style="width: 300px;">Lab</th>
+        {% endif %}
+        <th style="width: 250px;">Homeworks</th>
+        <th style="width: 250px;">Due Dates</th>
+      </tr>
+    </thead>  
+    {% for week in calendar_data.weeks %}
+    {% for entry in week.lectures %}
+    <tr>
+      {% if forloop.first %}
+      <td style="text-align:center; vertical-align: middle;" {% if week.lectures.size > 1 %}rowspan="{{ week.lectures.size }}"{% endif %}>{{ week.index }}</td>
+      {% endif %}
+        <td>{{ entry.date }}</td>
+        <td>
+          {% if entry.topic %}
+          {{ entry.lec_num }} - {{ entry.topic }}
+          {% if entry.resources %}
+          {% for item in entry.resources %}
+          <br>[<a href="{{ item.url }}">{{ item.category }}</a>] 
+          {% endfor %}
+          {% endif %}
+          {% elsif entry.exam %}
+          <b>{{ entry.exam }}</b>
+          {% elsif entry.holiday %}
+          <em class="text-muted">Academic Holiday</em>
+          {% endif %}
+        </td>
+        {% if calendar_data.lab %}
+          {% if entry.lab %}
+          <td>{{ calendar_data.lab.category }} {{ entry.lab.num }} - {{ entry.lab.topic }}</td>
+          {% else %}
+            {% if entry.nolab %}
+              <td class="text-muted"><em>No {{ calendar_data.lab.category }}</em></td>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+        <td>
+          {% if entry.hw %}
+            {% for i in entry.hw %}
+              {% if forloop.first %}
+                {{ i.description }}
+                {% if i.url %}
+                <br>
+                [<a href="{{ i.url }}">Link</a>]
+                {% endif %}
+              {% else %}
+                <br>
+                {{ i.description }}
+                {% if i.url %}
+                <br>
+                [<a href="{{ i.url }}">Link</a>]
+                {% endif %}
+              {% endif%}
+            {% endfor %}
+          {% endif %}
+        </td>
+        <td>
+          {% if entry.due %}
+            {% for due_date in entry.due %}
+              {% if forloop.first %}
+                {{ due_date.description }}
+              {% else %}
+                <br>
+                {{ due_date.description }}
+              {% endif%}
+            {% endfor %}
+          {% endif %}
+        </td>
+    {% endfor %}
+    </tr>
+    {% endfor %}
+      </table></p>

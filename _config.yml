@@ -1,0 +1,11 @@
+# _config.yml
+title: Eysa Lee
+email: eylee @ barnard.edu
+description: Assistant Professor of Computer Science at Barnard College
+url: "https://www.eysalee.com"
+
+# Exclude these files from the Jekyll build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

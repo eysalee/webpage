@@ -1,64 +1,10 @@
-<!doctype html>
-<html lang="en-US">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+---
+layout: default
+title: About
+permalink: /index.html
+---
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:500" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
-
-  <title>Eysa Lee</title>
-</head>
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #398ec9;">
-  <a class="navbar-brand" href="index.html">Eysa Lee</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="research.html">Research</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="service.html">Service</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="teaching.html">Teaching/Advising</a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link disabled" href="#">Teaching</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Blog</a>
-      </li>  --><!-- 
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Work with me!</a>
-      </li> -->
-    </ul>
-    <!-- <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Work with me!</a>
-      </li>
-    </ul> -->
-  </div>
-</nav>
-
-
-
-  <div class="container mt-3 d-block d-sm-none">
+<div class="container mt-3 d-block d-sm-none">
     <div class="row">
       <div class="col-5 d-block d-sm-none">
         <img id="mainPhoto1" src="" alt="Main website photo" width="100%" height="auto">
@@ -72,7 +18,7 @@
       </div>
       <div id="About Me" class="col-6">
       	<h2>Eysa Lee</h2>
-      	Email: eylee @ barnard.edu
+      	Email: {{ site.data.eysa.email }}
       	<br>
         <div>
           <a href="resources/CV.pdf">CV</a>
@@ -85,8 +31,6 @@
         I am an Assistant Professor of <a href="https://cs.barnard.edu/">Computer Science</a> at <a href="https://barnard.edu/">Barnard College</a>, an Affiliate Faculty in the <a href="https://www.cs.columbia.edu/">Department of Computer Science</a> at <a href="https://www.columbia.edu/">Columbia University</a>, and a member of the <a href="https://datascience.columbia.edu/">Data Science Institute (DSI)</a> at Columbia University.
         <br>
         My research interests are in cryptography, specifically threshold signatures, multi-party computation, and digital credentials.
-
-	
     </div>
     <div class="col-12">
         <br>
@@ -95,25 +39,27 @@
         Before that, I completed my undergraduate studies at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>.
         <br>
       <br>
-
-
-
         I generally try to stay on top of emails, but somethings things get lost in my inbox (especially while traveling). If you don't hear back within a week, feel free to send a follow-up. I kindly request you refrain from overuse of generative AI in emails to me.
         <br>
         <br>
         <b>Interested in working with me?</b> Please see this <a href="workwithme.html">page</a> for more information. 
         <br>For those applying to the CS PhD program at Columbia for Fall 2027, <span style="color:#DC143C;">I unfortunately do not have funding to admit any PhD students</span>.
-
         <br><br>
-
-
-        <h5>Quick Links to Fall 2026 Courses:</h5>
+        <h5>Quick Links to Current Courses ({{ site.data.courses.current.semester }}):</h5>
         <ul>
-          <li><a href="courses/f26/bc3997.html">COMS BC3997</a> (New Directions in Computing: Applied Cryptography)</li>
-          <li><a href="courses/f26/bc1016.html">COMS BC1016</a> (Introduction to Computational Thinking and Data Science)</li>
+          {% for offering in site.data.courses.current.offerings %}
+        <li><a href="{{ offering.url }}">{{ offering.course_number }}</a> ({{ offering.title }})</li>
+        {% endfor %}
         </ul>
-        <b>Fall 2026 Office Hours:</b> Monday/Wednesday 4-5pm (Milstein 512) or by appointment
-
+        {% if site.data.courses.upcoming.semester %}
+        <h5>Quick Links to Upcoming Courses ({{ site.data.courses.upcoming.semester }}):</h5>
+        <ul>
+        {% for offering in site.data.courses.upcoming.offerings %}
+        <li><a href="{{ offering.url }}">{{ offering.course_number }}</a> ({{ offering.title }})</li>
+        {% endfor %}
+      </ul>
+        {% endif %}
+        <b>Office Hours:</b> {{ site.data.eysa.office_hours }} ({{ site.data.eysa.office_location }}) or by appointment
         <br>
         <br>
         <b>How to pronounce my name:</b>
@@ -125,7 +71,6 @@
         <br>
         <br>
         <br>
-
         <h4>Professional Updates:</h4>
         <table class="table">
           <tr>
@@ -189,9 +134,7 @@
             </td>
           </tr>
         </table>
-
         <br><br>
-        
     </div>
 
 <script>
@@ -223,10 +166,3 @@
     document.getElementById("mainPhoto2").src = "images/me.jpg";
   }
 </script>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-</body>
-</html>

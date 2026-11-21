@@ -1,0 +1,74 @@
+conference:
+  - title: "An Unstoppable Ideal Functionality for Signatures and a Modular Analysis of the Dolev-Strong Broadcast"
+    authors: "Ran Cohen, Jack Doerner, Eysa Lee, Anna Lysyanskaya, and Lawrence Roy"
+    venue: "TCC 2025"
+    paper_link: "https://eprint.iacr.org/2024/1807.pdf"
+    slides_link: "resources/Fsig - nyc theory day.pdf"
+
+  - title: "Multi-Holder Anonymous Credentials from BBS Signatures"
+    authors: "Andrea Flamini, Eysa Lee, and Anna Lysyanskaya"
+    venue: "CRYPTO 2025"
+    paper_link: "https://eprint.iacr.org/2024/1874.pdf"
+
+  - title: "Threshold ECDSA in Three Rounds"
+    authors: "Jack Doerner, Yashvanth Kondi, Eysa Lee, and abhi shelat"
+    venue: "IEEE S&P (Oakland) 2024"
+    paper_link: "https://eprint.iacr.org/2023/765.pdf"
+
+  - title: "Threshold BBS+ Signatures for Distributed Anonymous Credential Issuance"
+    authors: "Jack Doerner, Yashvanth Kondi, Eysa Lee, abhi shelat, and LaKyah Tyner"
+    venue: "IEEE S&P (Oakland) 2023"
+    paper_link: "https://eprint.iacr.org/2023/602.pdf"
+
+  - title: "Circuit Amortization Friendly Encodings and their Application to Statistically Secure Multiparty Computation"
+    authors: "Anders Dalskov, Eysa Lee, Eduardo Soria-Vazquez"
+    venue: "Asiacrypt 2020"
+    paper_link: "https://eprint.iacr.org/2020/1053.pdf"
+    slides_link: "resources/AC2020.pdf"
+
+  - title: "Multiparty Generation of an RSA Modulus"
+    authors: "Megan Chen, Ran Cohen, Jack Doerner, Yashvanth Kondi, Eysa Lee, Schuyler Rosefield, and abhi shelat"
+    venue: "CRYPTO 2020"
+    paper_link: "https://eprint.iacr.org/2020/370.pdf"
+
+  - title: "Threshold ECDSA from ECDSA Assumptions: The Multiparty Case"
+    authors: "Jack Doerner, Yashvanth Kondi, Eysa Lee, and abhi shelat"
+    venue: "IEEE S&P (Oakland) 2019"
+    paper_link: "https://eprint.iacr.org/2019/523.pdf"
+    code_link: "https://gitlab.com/neucrypt/mpecdsa"
+   
+  - title: "Secure Two-party Threshold ECDSA from ECDSA Assumptions"
+    authors: "Jack Doerner, Yashvanth Kondi, Eysa Lee, and abhi shelat"
+    venue: "IEEE S&P (Oakland) 2018"
+    paper_link: "https://eprint.iacr.org/2018/499.pdf"
+    code_link: "https://gitlab.com/neucrypt/mpecdsa"
+    slides_link: "resources/ecdsa_tpmpc2018.pdf"
+
+  - title: "Signature Schemes with Randomized Verification"
+    authors: "Cody Freitag, Rishab Goyal, Susan Hohenberger, Venkata Koppula, Eysa Lee, Tatsuaki Okamoto, Jordan Tran, and Brent Waters"
+    venue: "ACNS 2017"
+    paper_link: "https://link.springer.com/chapter/10.1007/978-3-319-61204-1_19"
+
+journal:
+  - title: "Multiparty Generation of an RSA Modulus"
+    authors: "Megan Chen, Ran Cohen, Jack Doerner, Yashvanth Kondi, Eysa Lee, Schuyler Rosefield, and abhi shelat"
+    venue: "Journal of Cryptology (full version)"
+    paper_link: "https://eprint.iacr.org/2020/370.pdf"
+
+workshop_talks:
+  - title: "Teaching-Focused Academic Jobs"
+    speakers: "Alexis Korb, Eysa Lee"
+    venue: "Workshop on Teaching-Focused Academic Jobs (CRYPTO Affiliated Event), 2026"
+    slides_link: "https://docs.google.com/presentation/d/16-xG5HqLe1EuMrAjzbo149_ZyUC8QzwP1LESGmXpeho/edit?usp=sharing"
+
+  - title: "Saying NO! to Workplace Surveillance: Lessons from the Cybersecurity and Privacy Institute"
+    speakers: "Lisa Oakley, xenia dragon, Eysa Lee"
+    venue: "Re-Imagining Cryptography and Privacy (ReCAP) Workshop, 2024"
+    abstract: "https://recapworkshop.online/recap24/contributions/oakley-no-workplace-surveillance.html"
+    slides_link: "https://recapworkshop.online/recap24/artifacts/oakley-dragon-lee-saying-no-workplace-surveillance.pdf"
+
+misc_contributions:
+  - title: "crypto_doodles: cryptography through comics and jokes"
+    author: "Eysa Lee"
+    venue: "Re-Imagining Cryptography and Privacy (ReCAP) Workshop, 2024"
+    artifact: "https://recapworkshop.online/recap24/contributions/lee-crypto-doodles.html"

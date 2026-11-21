@@ -1,0 +1,57 @@
+---
+layout: default
+title: Work With Me
+permalink: /workwithme.html
+---
+
+<div class="container mt-3">
+      <h2>Work With Me</h2>
+      I'm very happy you're interested in working with me!
+      I would not be in this job if working with students was not something I enjoy.
+      <br>
+      <br>
+      Much of the content of this page has been copied or adapted with permission from <a href="https://wangboya.org/workwithme/">Boya Wang's website</a>. If you're new to research, Boya's "What To Expect From Me" and "What I Expect From You" are incredibly reasonable descriptions for how research projects (should) work, and generally how I would like my working relationships to look.
+      <br>
+      <br>
+      <h5>PhD and Postdoc Supervision</h5>
+      Although Barnard does not have its own graduate program, I am an affiliate faculty in the Computer Science Department at Columbia and am able to advise graduate students through Columbia. However, <span style="color:#DC143C;">I do not currently have the funding to support graduate students or postdocs</span>. If you already have funding or are looking at applying to funding, please feel free to send me an email.
+      <br><br>
+      <h5>Project Supervision</h5>
+      Much of my work focuses on designing practical cryptographic systems with provable security.
+      Except in exceptional circumstances, students who would like to work with me on these sorts of projects must have some background in cryptography, such as an introductory course in cryptography (COMS BC3262, COMS W4261, or my applied crypto course) or similar. 
+      It is incredibly difficult to meaningfully contribute to a project without any background, and students ultimately end up having to learn a semester's worth of material before being able to get to the "new stuff".
+      <br>
+      <br>
+      If you are new to cryptography and/or are more interested in programming, I'm frequently looking for people who are interested in implementing and/or benchmarking cryptographic protocols. These projects typically have a much lower barrier to entry in terms of required background and are great ways to get hands-on experience with advanced concepts. 
+      <br>
+      <br>
+      For the best response, please include following information in your email to me:
+      <ol>
+        <li>Your CV</li>
+        <ul><li>Please ensure you include relevant projects and coursework.</li></ul>
+        <li>Your research interest</li>
+        <ul>
+          <li>What kind of research questions make you excited? Do you have concrete ideas for what you want to work on?</li>
+          <li>How do your interests compare with mine? What overlaps do we have?</li>
+        </ul>
+        <li>Your timeline and expected outcome</li>
+        <ul>
+          <li>How many hours would you work on the project? For how long?</li>
+          <li>What phase are you at in your studies? Are you looking for a thesis project or an on-the-side project?</li>
+        </ul>
+      </ol>
+      <h5>Other Collaborations</h5>
+      If you are looking for other collaborations, please include the following information in your email to me.
+      <ol>
+        <li>Do you have an idea already? Or would you like to brainstorm together to find something intersecting our research interests?</li>
+        <ul>
+          <li>If you have an idea, please describe with a few sentences.</li>
+          <li>Otherwise, please elaborate your research interest and previous work.</li>
+        </ul>
+        <li>What do you envision for this collaboration?</li>
+        <ul>
+          <li>Are we aiming for a publication or is the work towards a different goal?</li>
+        </ul>
+        <li>What is your expectation for how I can contribute?</li>
+      </ol> 
+  </div>

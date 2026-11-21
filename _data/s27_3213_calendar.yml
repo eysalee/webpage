@@ -1,0 +1,172 @@
+weeks:
+  - index: 1
+    lectures:
+    - date: 1/20
+      lec_num: 1
+      topic: Introduction
+      # resources:
+      #   - category: Slides
+      #     url: 
+  - index: 2
+    lectures:
+    - date: 1/25
+      lec_num: 2
+      topic: "Logic: Definitions, propositional logic"
+      hw:
+        - description: ""
+    - date: 1/27
+      lec_num: 3
+      topic: "Logical equivalence, tautology, fallacy, contrapositive" 
+      hw:
+        - description: "HW 1"
+          # url: "testing123"
+  - index: 3 
+    lectures:
+      - date: 2/1 
+        lec_num: 4
+        topic: Laws of propositional logic
+      - date: 2/3
+        lec_num: 5
+        topic: "Inference: rules and examples"
+        hw:
+          - description: "HW 2"
+        due:
+          - description: "HW 1 due"
+  - index: 4 
+    lectures:
+      - date: 2/8
+        lec_num: 6
+        topic: "First Order Logic (FOL): Quantifiers, predicates"
+      - date: 2/10  
+        lec_num: 7
+        topic: "Negation of FOL propositions, (dis)proving FOL propositions, nested quantifiers"
+        hw:
+          - description: "HW 3"
+        due:
+          - description: "HW 2 due"
+  - index: 5
+    lectures:
+      - date: 2/15
+        topic: "Proofs methods: Exhaustive proof (proof by enumeration), direct proof, proof of IFF, proof by contrapositive"
+        lec_num: 8
+      - date: 2/17
+        topic: "Proof by cases, proof by contradiction, proof by counterexample"
+        lec_num: 9
+        hw:
+          - description: "HW 4"
+        due:
+          - description: "HW 3 due"
+  - index: 6
+    lectures:
+      - date: 2/22
+        topic: "Set Theory: Sets definition, subsets, universal set, powerset"
+        lec_num: 10
+      - date: 2/24
+        topic: "Set builders and FOL"
+        lec_num: 11
+        hw:
+          - description: "HW 5"
+        due:
+          - description: "HW 4 due"
+  - index: 7
+    lectures:
+      - date: 3/1
+        topic: "Operations on sets, cardinality, size of the union, proof on sets"
+        lec_num: 12
+      - date: 3/3 
+        topic: "Relations: representation, properties"
+        lec_num: 13
+        due:
+          - description: "HW 4 due"
+  - index: 8
+    lectures:
+      - date: 3/8
+        topic: "Equivalence relations, equivalence classes, partitions"
+        lec_num: 14
+      - date: 3/10
+        exam: "Exam 1"
+  - index: "-"
+    lectures:
+      - date: 3/15
+        holiday: "Spring Recess"
+      - date: 3/17
+        holiday: "Spring Recess"
+  - index: 9
+    lectures: 
+      - date: 3/22
+        topic: "Relation of congruence modulo n"
+        lec_num: 15
+      - date: 3/24
+        topic: "Partially ordered sets (Posets)"
+        lec_num: 16
+        hw:
+          - description: "HW 6"
+  - index: 10
+    lectures: 
+      - date: 3/29  
+        topic: "Functions: Functions, onto, one-to-one, bijections"
+        lec_num: 17
+      - date: 3/31
+        topic: "Composition, inverse function, pigeon hole principle, countability"
+        lec_num: 18
+        hw:
+          - description: "HW 7"
+        due:
+          - description: "HW 6 due"
+  - index: 11  
+    lectures: 
+      - date: 4/5 
+        topic: "More Proofs: proof by induction, proof by smallest counter example, strong induction"
+        lec_num: 19
+      - date: 4/7
+        topic: "Number Theory: Dividing, div and mod operations, GCD, euclid algorithm, prime numbers"
+        lec_num: 20
+        hw:
+          - description: "HW 8"
+        due:
+          - description: "HW 7 due"
+  - index: 12
+    lectures:
+      - date: 4/12
+        topic: "Fundamental theorem of arithmetic, modular arithmetic"
+        lec_num: 21
+      - date: 4/14
+        topic: "Introduction to cryptography, RSA. Counting: Lists, factorial, anagrams, permutations"
+        lec_num: 22
+        hw:
+          - description: "HW 9"
+        due:
+          - description: "HW 8 due"
+  - index: 13
+    lectures: 
+      - date: 4/19
+        topic: "Binomial coefficients, principle of inclusion-exclusion (PIE)"
+        lec_num: 23
+      - date: 4/21
+        topic: "Graph Theory: Fundamentals, terminology, isomorphism, subgraphs, connection, trees, eularian graphs"
+        lec_num: 24
+        hw:
+          - description: "HW 10"
+        due:
+          - description: "HW 9 due"
+  - index: 14
+    lectures:
+      - date: 4/26  
+        topic: "Graph coloring, planar graphs"
+        lec_num: 25
+      - date: 4/28  
+        topic: "Trees, eularian graphs, conclusion"
+        lec_num: 26
+        due:
+          - description: "HW 10 due"
+  - index: 15
+    lectures:
+      - date: 4/3
+        exam: "Exam 2"
+
+
+
+
+
+
+

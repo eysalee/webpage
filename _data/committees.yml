@@ -1,0 +1,32 @@
+conferences:
+  - venue: "CRYPTO 2026"
+  - venue: "SCN 2026"
+  - venue: "CCS 2026"
+    additional: "Cycle B"
+  - venue: "Eurocrypt 2026"
+  - venue: "IEEE S&P 2026"
+    additional: "PC and Student Travel Grant Committee"
+  - venue: "IEEE EuroS&P 2025"
+  - venue: "FC 2025"
+  - venue: "IEEE S&P 2025"
+    additional: "PC and Research Ethics Committee"
+  - venue: "CANS 2024"
+
+workshops:
+  - venue: "CFAIL 2026"
+  - venue: "CFAIL 2025"
+    additional: "PC Co-Chair"
+  - venue: "CFAIL 2024"
+    additional: "PC Co-Chair"
+
+committees:
+  - title: IACR Schools Committee
+    start: "2026"
+    end: "present"
+  - title: CFAIL Steering Committee
+    start: "2026"
+    end: "present"
+
+organizer:
+  - title: Workshop on Teaching-Focused Academic Jobs
+    additional: CRYPTO 2026 Affiliated Event
