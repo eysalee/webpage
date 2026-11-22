@@ -18,8 +18,9 @@
       </tr>
     </thead>  
     {% for week in calendar_data.weeks %}
+    {% capture row_class %}{% cycle 'background-color:#ffffff;', 'background-color:#f4f6f8;' %}{% endcapture %}
     {% for entry in week.lectures %}
-    <tr>
+    <tr style="{{ row_class }}">
       {% if forloop.first %}
       <td style="text-align:center; vertical-align: middle;" {% if week.lectures.size > 1 %}rowspan="{{ week.lectures.size }}"{% endif %}>{{ week.index }}</td>
       {% endif %}
