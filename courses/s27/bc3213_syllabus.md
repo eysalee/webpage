@@ -47,7 +47,7 @@ There is a <b>required recitation section</b> for this class on Fridays. Exact t
   As a general guideline, assignments are weighted as follows:
   <ul>
     <li>
-      <b>Homework</b> (30%):  There will be weekly written homework assignments. Homework assignments must be typed. You may use use Word, LaTeX, or other text processing, but you may not submit a scan of a handwritten document. Solutions must be written individually. You may not use generative AI for your assignments.
+      <b>Homework</b> (30%):  There will be weekly written homework assignments. Homework assignments may be typed or handwritten. If you submit a scan of a handwritten document it must be legible. We will not grade assignments that we cannot read! Solutions must be written individually. You may not use generative AI for your assignments.
     </li>
     <li><b>Midterm</b> (30%): The first exam will cover material from the first half of the course.</li>
     <li><b>Final Exam</b> (30%): The final exam is non-cumulative and will cover material from teh second half of the course.</li>

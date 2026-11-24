@@ -27,7 +27,7 @@
         <td>{{ entry.date }}</td>
         <td>
           {% if entry.topic %}
-          {{ entry.lec_num }} - {{ entry.topic }}
+          {% if entry.lec_num %}{{ entry.lec_num }} - {% endif %}{{ entry.topic }}
           {% if entry.resources %}
           {% for item in entry.resources %}
           <br>[<a href="{{ item.url }}">{{ item.category }}</a>] 
